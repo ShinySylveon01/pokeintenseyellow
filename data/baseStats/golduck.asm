@@ -8,7 +8,7 @@ db WATER ; species type 1
 db WATER ; species type 2
 db 75 ; catch rate
 db 174 ; base exp yield
-INCBIN "pic/ymon/golduck.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/golduck.pic",0,1 ; 77, sprite dimensions
 dw GolduckPicFront
 dw GolduckPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34,39,40
 	tmlearn 44
 	tmlearn 50,53,54
-db 0 ; padding
+db BANK(GolduckPicFront)

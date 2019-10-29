@@ -8,7 +8,7 @@ db ROCK ; species type 1
 db GROUND ; species type 2
 db 255 ; catch rate
 db 86 ; base exp yield
-INCBIN "pic/ymon/geodude.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/geodude.pic",0,1 ; 55, sprite dimensions
 dw GeodudePicFront
 dw GeodudePicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 34,35,36,38
 	tmlearn 44,47,48
 	tmlearn 50,54
-db 0 ; padding
+db BANK(GeodudePicFront)

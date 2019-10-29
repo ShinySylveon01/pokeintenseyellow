@@ -8,7 +8,7 @@ db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 45 ; catch rate
 db 175 ; base exp yield
-INCBIN "pic/ymon/kangaskhan.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/kangaskhan.pic",0,1 ; 77, sprite dimensions
 dw KangaskhanPicFront
 dw KangaskhanPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34,38,40
 	tmlearn 44,48
 	tmlearn 50,53,54
-db 0 ; padding
+db BANK(KangaskhanPicFront)

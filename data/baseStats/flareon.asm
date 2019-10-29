@@ -8,12 +8,12 @@ db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate
 db 198 ; base exp yield
-INCBIN "pic/ymon/flareon.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/flareon.pic",0,1 ; 66, sprite dimensions
 dw FlareonPicFront
 dw FlareonPicBack
 ; attacks known at lvl 0
 db TACKLE
-db TAIL_WHIP
+db SAND_ATTACK
 db QUICK_ATTACK
 db EMBER
 db 0 ; growth rate
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,38,39,40
 	tmlearn 44
 	tmlearn 50
-db 0 ; padding
+db BANK(FlareonPicFront)

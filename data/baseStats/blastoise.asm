@@ -8,7 +8,7 @@ db WATER ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate
 db 210 ; base exp yield
-INCBIN "pic/ymon/blastoise.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/blastoise.pic",0,1 ; 77, sprite dimensions
 dw BlastoisePicFront
 dw BlastoisePicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34,40
 	tmlearn 44
 	tmlearn 50,53,54
-db 0 ; padding
+db BANK(BlastoisePicFront)

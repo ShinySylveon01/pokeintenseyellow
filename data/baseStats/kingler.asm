@@ -8,7 +8,7 @@ db WATER ; species type 1
 db WATER ; species type 2
 db 60 ; catch rate
 db 206 ; base exp yield
-INCBIN "pic/ymon/kingler.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/kingler.pic",0,1 ; 77, sprite dimensions
 dw KinglerPicFront
 dw KinglerPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34
 	tmlearn 44
 	tmlearn 50,51,53,54
-db 0 ; padding
+db BANK(KinglerPicFront)

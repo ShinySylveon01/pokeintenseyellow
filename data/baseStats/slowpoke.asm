@@ -8,7 +8,7 @@ db WATER ; species type 1
 db PSYCHIC ; species type 2
 db 190 ; catch rate
 db 99 ; base exp yield
-INCBIN "pic/ymon/slowpoke.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/slowpoke.pic",0,1 ; 55, sprite dimensions
 dw SlowpokePicFront
 dw SlowpokePicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,38,39,40
 	tmlearn 44,45,46
 	tmlearn 49,50,53,54,55
-db 0 ; padding
+db BANK(SlowpokePicFront)

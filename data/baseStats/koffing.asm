@@ -8,7 +8,7 @@ db POISON ; species type 1
 db POISON ; species type 2
 db 190 ; catch rate
 db 114 ; base exp yield
-INCBIN "pic/ymon/koffing.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/koffing.pic",0,1 ; 66, sprite dimensions
 dw KoffingPicFront
 dw KoffingPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34,36,38
 	tmlearn 44,47
 	tmlearn 50
-db 0 ; padding
+db BANK(KoffingPicFront)

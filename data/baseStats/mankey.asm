@@ -8,7 +8,7 @@ db FIGHTING ; species type 1
 db FIGHTING ; species type 2
 db 190 ; catch rate
 db 74 ; base exp yield
-INCBIN "pic/ymon/mankey.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/mankey.pic",0,1 ; 55, sprite dimensions
 dw MankeyPicFront
 dw MankeyPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34,35,39,40
 	tmlearn 44,48
 	tmlearn 50,54
-db 0 ; padding
+db BANK(MankeyPicFront)

@@ -8,7 +8,7 @@ db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 35 ; catch rate
 db 61 ; base exp yield
-INCBIN "pic/ymon/ditto.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/ditto.pic",0,1 ; 55, sprite dimensions
 dw DittoPicFront
 dw DittoPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 0
 	tmlearn 0
 	tmlearn 0
-db 0 ; padding
+db BANK(DittoPicFront)

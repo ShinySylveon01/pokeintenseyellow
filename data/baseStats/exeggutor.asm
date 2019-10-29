@@ -8,7 +8,7 @@ db GRASS ; species type 1
 db PSYCHIC ; species type 2
 db 45 ; catch rate
 db 212 ; base exp yield
-INCBIN "pic/ymon/exeggutor.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/exeggutor.pic",0,1 ; 77, sprite dimensions
 dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 5 ; growth rate
 	tmlearn 33,34,36,37
 	tmlearn 44,46,47
 	tmlearn 50,54
-db 0 ; padding
+db BANK(ExeggutorPicFront)

@@ -8,7 +8,7 @@ db WATER ; species type 1
 db FIGHTING ; species type 2
 db 45 ; catch rate
 db 185 ; base exp yield
-INCBIN "pic/ymon/poliwrath.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/poliwrath.pic",0,1 ; 77, sprite dimensions
 dw PoliwrathPicFront
 dw PoliwrathPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 34,35,40
 	tmlearn 44,46
 	tmlearn 50,53,54
-db 0 ; padding
+db BANK(PoliwrathPicFront)

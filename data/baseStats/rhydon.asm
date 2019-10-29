@@ -8,7 +8,7 @@ db GROUND ; species type 1
 db ROCK ; species type 2
 db 60 ; catch rate
 db 204 ; base exp yield
-INCBIN "pic/ymon/rhydon.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/rhydon.pic",0,1 ; 77, sprite dimensions
 dw RhydonPicFront
 dw RhydonPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 5 ; growth rate
 	tmlearn 34,38,40
 	tmlearn 44,48
 	tmlearn 50,53,54
-db 0 ; padding
+db BANK(RhydonPicFront)

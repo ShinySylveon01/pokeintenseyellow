@@ -8,7 +8,7 @@ db GRASS ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate
 db 184 ; base exp yield
-INCBIN "pic/ymon/vileplume.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/vileplume.pic",0,1 ; 77, sprite dimensions
 dw VileplumePicFront
 dw VileplumePicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34
 	tmlearn 44
 	tmlearn 50,51
-db 0 ; padding
+db BANK(VileplumePicFront)

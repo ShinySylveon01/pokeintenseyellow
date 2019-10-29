@@ -8,7 +8,7 @@ db PSYCHIC ; species type 1
 db PSYCHIC ; species type 2
 db 75 ; catch rate
 db 165 ; base exp yield
-INCBIN "pic/ymon/hypno.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/hypno.pic",0,1 ; 77, sprite dimensions
 dw HypnoPicFront
 dw HypnoPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,35,40
 	tmlearn 42,44,45,46
 	tmlearn 49,50,55
-db 0 ; padding
+db BANK(HypnoPicFront)

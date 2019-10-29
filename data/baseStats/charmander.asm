@@ -8,7 +8,7 @@ db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate
 db 65 ; base exp yield
-INCBIN "pic/ymon/charmander.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/charmander.pic",0,1 ; 55, sprite dimensions
 dw CharmanderPicFront
 dw CharmanderPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34,38,39,40
 	tmlearn 44
 	tmlearn 50,51,54
-db 0 ; padding
+db BANK(CharmanderPicFront)

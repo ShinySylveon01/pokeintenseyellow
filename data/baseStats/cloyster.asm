@@ -8,7 +8,7 @@ db WATER ; species type 1
 db ICE ; species type 2
 db 60 ; catch rate
 db 203 ; base exp yield
-INCBIN "pic/ymon/cloyster.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/cloyster.pic",0,1 ; 77, sprite dimensions
 dw CloysterPicFront
 dw CloysterPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 5 ; growth rate
 	tmlearn 33,34,36,39
 	tmlearn 44,47
 	tmlearn 49,50,53
-db 0 ; padding
+db BANK(CloysterPicFront)

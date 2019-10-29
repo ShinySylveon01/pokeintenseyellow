@@ -8,7 +8,7 @@ db GRASS ; species type 1
 db POISON ; species type 2
 db 255 ; catch rate
 db 84 ; base exp yield
-INCBIN "pic/ymon/bellsprout.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/bellsprout.pic",0,1 ; 55, sprite dimensions
 dw BellsproutPicFront
 dw BellsproutPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34
 	tmlearn 44
 	tmlearn 50,51
-db 0 ; padding
+db BANK(BellsproutPicFront)

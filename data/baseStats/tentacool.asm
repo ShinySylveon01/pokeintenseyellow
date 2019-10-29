@@ -8,7 +8,7 @@ db WATER ; species type 1
 db POISON ; species type 2
 db 190 ; catch rate
 db 105 ; base exp yield
-INCBIN "pic/ymon/tentacool.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/tentacool.pic",0,1 ; 55, sprite dimensions
 dw TentacoolPicFront
 dw TentacoolPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 5 ; growth rate
 	tmlearn 33,34,40
 	tmlearn 44
 	tmlearn 50,51,53
-db 0 ; padding
+db BANK(TentacoolPicFront)

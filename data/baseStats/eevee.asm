@@ -8,12 +8,12 @@ db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 45 ; catch rate
 db 92 ; base exp yield
-INCBIN "pic/ymon/eevee.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/eevee.pic",0,1 ; 55, sprite dimensions
 dw EeveePicFront
 dw EeveePicBack
 ; attacks known at lvl 0
 db TACKLE
-db TAIL_WHIP
+db SAND_ATTACK
 db 0
 db 0
 db 0 ; growth rate
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,39,40
 	tmlearn 44
 	tmlearn 50
-db 0 ; padding
+db BANK(EeveePicFront)

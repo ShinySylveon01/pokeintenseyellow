@@ -8,7 +8,7 @@ db PSYCHIC ; species type 1
 db PSYCHIC ; species type 2
 db 200 ; catch rate
 db 73 ; base exp yield
-INCBIN "pic/ymon/abra.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/abra.pic",0,1 ; 55, sprite dimensions
 dw AbraPicFront
 dw AbraPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34,35,40
 	tmlearn 44,45,46
 	tmlearn 49,50,55
-db 0 ; padding
+db BANK(AbraPicFront)

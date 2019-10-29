@@ -8,7 +8,7 @@ db GROUND ; species type 1
 db GROUND ; species type 2
 db 255 ; catch rate
 db 93 ; base exp yield
-INCBIN "pic/ymon/sandshrew.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/sandshrew.pic",0,1 ; 55, sprite dimensions
 dw SandshrewPicFront
 dw SandshrewPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34,39,40
 	tmlearn 44,48
 	tmlearn 50,51,54
-db 0 ; padding
+db BANK(SandshrewPicFront)

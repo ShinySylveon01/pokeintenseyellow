@@ -8,7 +8,7 @@ db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate
 db 167 ; base exp yield
-INCBIN "pic/ymon/magmar.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/magmar.pic",0,1 ; 66, sprite dimensions
 dw MagmarPicFront
 dw MagmarPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34,35,38,40
 	tmlearn 44,46
 	tmlearn 50,54
-db 0 ; padding
+db BANK(MagmarPicFront)

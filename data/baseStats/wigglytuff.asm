@@ -8,7 +8,7 @@ db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 50 ; catch rate
 db 109 ; base exp yield
-INCBIN "pic/ymon/wigglytuff.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/wigglytuff.pic",0,1 ; 66, sprite dimensions
 dw WigglytuffPicFront
 dw WigglytuffPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 4 ; growth rate
 	tmlearn 33,34,38,40
 	tmlearn 44,45,46
 	tmlearn 49,50,54,55
-db 0 ; padding
+db BANK(WigglytuffPicFront)

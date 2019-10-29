@@ -8,7 +8,7 @@ db POISON ; species type 1
 db GROUND ; species type 2
 db 45 ; catch rate
 db 194 ; base exp yield
-INCBIN "pic/ymon/nidoqueen.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/nidoqueen.pic",0,1 ; 77, sprite dimensions
 dw NidoqueenPicFront
 dw NidoqueenPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34,38,40
 	tmlearn 44,48
 	tmlearn 50,53,54
-db 0 ; padding
+db BANK(NidoqueenPicFront)

@@ -8,7 +8,7 @@ db ROCK ; species type 1
 db GROUND ; species type 2
 db 45 ; catch rate
 db 177 ; base exp yield
-INCBIN "pic/ymon/golem.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/golem.pic",0,1 ; 66, sprite dimensions
 dw GolemPicFront
 dw GolemPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 34,35,36,38
 	tmlearn 44,47,48
 	tmlearn 50,54
-db 0 ; padding
+db BANK(GolemPicFront)

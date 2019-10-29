@@ -8,7 +8,7 @@ db WATER ; species type 1
 db WATER ; species type 2
 db 190 ; catch rate
 db 97 ; base exp yield
-INCBIN "pic/ymon/shellder.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/shellder.pic",0,1 ; 55, sprite dimensions
 dw ShellderPicFront
 dw ShellderPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 5 ; growth rate
 	tmlearn 33,34,36,39
 	tmlearn 44,47
 	tmlearn 49,50,53
-db 0 ; padding
+db BANK(ShellderPicFront)

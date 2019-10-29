@@ -8,7 +8,7 @@ db PSYCHIC ; species type 1
 db PSYCHIC ; species type 2
 db 190 ; catch rate
 db 102 ; base exp yield
-INCBIN "pic/ymon/drowzee.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/drowzee.pic",0,1 ; 66, sprite dimensions
 dw DrowzeePicFront
 dw DrowzeePicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,35,40
 	tmlearn 42,44,45,46
 	tmlearn 49,50,55
-db 0 ; padding
+db BANK(DrowzeePicFront)

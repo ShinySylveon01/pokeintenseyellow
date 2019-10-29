@@ -8,7 +8,7 @@ db GHOST ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate
 db 190 ; base exp yield
-INCBIN "pic/ymon/gengar.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/gengar.pic",0,1 ; 66, sprite dimensions
 dw GengarPicFront
 dw GengarPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 34,35,36,40
 	tmlearn 42,44,46,47
 	tmlearn 50,54
-db 0 ; padding
+db BANK(GengarPicFront)

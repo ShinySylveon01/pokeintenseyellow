@@ -8,7 +8,7 @@ db BUG ; species type 1
 db GRASS ; species type 2
 db 190 ; catch rate
 db 70 ; base exp yield
-INCBIN "pic/ymon/paras.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/paras.pic",0,1 ; 55, sprite dimensions
 dw ParasPicFront
 dw ParasPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,40
 	tmlearn 44
 	tmlearn 50,51
-db 0 ; padding
+db BANK(ParasPicFront)

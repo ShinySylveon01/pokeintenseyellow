@@ -8,7 +8,7 @@ db BUG ; species type 1
 db BUG ; species type 2
 db 255 ; catch rate
 db 53 ; base exp yield
-INCBIN "pic/ymon/caterpie.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/caterpie.pic",0,1 ; 55, sprite dimensions
 dw CaterpiePicFront
 dw CaterpiePicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 0
 	tmlearn 0
 	tmlearn 0
-db 0 ; padding
+db BANK(CaterpiePicFront)

@@ -8,12 +8,12 @@ db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 45 ; catch rate
 db 197 ; base exp yield
-INCBIN "pic/ymon/jolteon.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/jolteon.pic",0,1 ; 66, sprite dimensions
 dw JolteonPicFront
 dw JolteonPicBack
 ; attacks known at lvl 0
 db TACKLE
-db TAIL_WHIP
+db SAND_ATTACK
 db QUICK_ATTACK
 db THUNDERSHOCK
 db 0 ; growth rate
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,39,40
 	tmlearn 44,45
 	tmlearn 50,55
-db 0 ; padding
+db BANK(JolteonPicFront)

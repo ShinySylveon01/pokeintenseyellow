@@ -8,12 +8,12 @@ db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 30 ; catch rate
 db 255 ; base exp yield
-INCBIN "pic/ymon/chansey.pic",0,1 ; 66, sprite dimensions
+INCBIN "pic/bmon/chansey.pic",0,1 ; 66, sprite dimensions
 dw ChanseyPicFront
 dw ChanseyPicBack
 ; attacks known at lvl 0
 db POUND
-db TAIL_WHIP
+db DOUBLESLAP
 db 0
 db 0
 db 4 ; growth rate
@@ -25,4 +25,4 @@ db 4 ; growth rate
 	tmlearn 33,34,35,37,38,40
 	tmlearn 41,44,45,46
 	tmlearn 49,50,54,55
-db 0 ; padding
+db BANK(ChanseyPicFront)

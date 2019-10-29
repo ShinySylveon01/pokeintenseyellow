@@ -2338,6 +2338,8 @@ wMonHGrowthRate:: ; d0ca
 wMonHLearnset:: ; d0cb
 ; bit field
 	flag_array 50 + 5
+
+wMonHSpriteBank:: ; d0cc
 	ds 1
 
 wSavedTilesetType:: ; d0d3
@@ -3257,6 +3259,7 @@ wRoute18GateCurScript:: ; d668
 	ds 78
 wGameProgressFlagsEnd:: ; d6b7
 
+wEvolutionData::
 	ds 56
 
 wObtainedHiddenItemsFlags:: ; d6ef

@@ -8,7 +8,7 @@ db WATER ; species type 1
 db PSYCHIC ; species type 2
 db 75 ; catch rate
 db 164 ; base exp yield
-INCBIN "pic/ymon/slowbro.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/slowbro.pic",0,1 ; 77, sprite dimensions
 dw SlowbroPicFront
 dw SlowbroPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,38,39,40
 	tmlearn 44,45,46
 	tmlearn 49,50,53,54,55
-db 0 ; padding
+db BANK(SlowbroPicFront)

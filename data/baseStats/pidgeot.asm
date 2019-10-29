@@ -8,7 +8,7 @@ db NORMAL ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
 db 172 ; base exp yield
-INCBIN "pic/ymon/pidgeot.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/pidgeot.pic",0,1 ; 77, sprite dimensions
 dw PidgeotPicFront
 dw PidgeotPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 33,34,39
 	tmlearn 43,44
 	tmlearn 50,52
-db 0 ; padding
+db BANK(PidgeotPicFront)

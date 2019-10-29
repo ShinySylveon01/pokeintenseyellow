@@ -8,7 +8,7 @@ db DRAGON ; species type 1
 db DRAGON ; species type 2
 db 45 ; catch rate
 db 67 ; base exp yield
-INCBIN "pic/ymon/dratini.pic",0,1 ; 55, sprite dimensions
+INCBIN "pic/bmon/dratini.pic",0,1 ; 55, sprite dimensions
 dw DratiniPicFront
 dw DratiniPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 5 ; growth rate
 	tmlearn 33,34,38,39,40
 	tmlearn 44,45
 	tmlearn 50,53
-db 0 ; padding
+db BANK(DratiniPicFront)

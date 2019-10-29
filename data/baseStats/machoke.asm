@@ -8,7 +8,7 @@ db FIGHTING ; species type 1
 db FIGHTING ; species type 2
 db 90 ; catch rate
 db 146 ; base exp yield
-INCBIN "pic/ymon/machoke.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/machoke.pic",0,1 ; 77, sprite dimensions
 dw MachokePicFront
 dw MachokePicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 3 ; growth rate
 	tmlearn 34,35,38,40
 	tmlearn 44,48
 	tmlearn 50,54
-db 0 ; padding
+db BANK(MachokePicFront)

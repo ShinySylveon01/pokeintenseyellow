@@ -8,7 +8,7 @@ db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 75 ; catch rate
 db 122 ; base exp yield
-INCBIN "pic/ymon/raichu.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/raichu.pic",0,1 ; 77, sprite dimensions
 dw RaichuPicFront
 dw RaichuPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 33,34,39,40
 	tmlearn 44,45
 	tmlearn 50,55
-db 0 ; padding
+db BANK(RaichuPicFront)

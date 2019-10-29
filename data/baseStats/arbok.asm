@@ -8,7 +8,7 @@ db POISON ; species type 1
 db POISON ; species type 2
 db 90 ; catch rate
 db 147 ; base exp yield
-INCBIN "pic/ymon/arbok.pic",0,1 ; 77, sprite dimensions
+INCBIN "pic/bmon/arbok.pic",0,1 ; 77, sprite dimensions
 dw ArbokPicFront
 dw ArbokPicBack
 ; attacks known at lvl 0
@@ -25,4 +25,4 @@ db 0 ; growth rate
 	tmlearn 34,40
 	tmlearn 44,48
 	tmlearn 50,54
-db 0 ; padding
+db BANK(ArbokPicFront)
