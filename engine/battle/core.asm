@@ -6379,8 +6379,8 @@ LoadEnemyMonData:
 	ld a, [wIsInBattle]
 	cp $2 ; is it a trainer battle?
 ; fixed DVs for trainer mon
-	ld a, $98
-	ld b, $88
+	ld a, $ff
+	ld b, $ff
 	jr z, .storeDVs
 ; random DVs for wild mon
 	call BattleRandom
