@@ -1,11 +1,11 @@
 LoadNicknameMonSprite:
-	call DisableLCD
+	;call DisableLCD
 	xor a
 	ld [H_DOWNARROWBLINKCNT2], a
 	ld a, [wMonPartySpriteSpecies]
 	ld de, vNPCSprites
 	call LoadPartyMonSprite
-	call EnableLCD
+	;call EnableLCD
 	ld a, [H_SPRITEINDEX]
 	push af
 	xor a
