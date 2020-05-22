@@ -2192,7 +2192,7 @@ Mon007_EvosMoves:
 	db EV_LEVEL,16,WARTORTLE
 	db 0
 ;Learnset
-	db 8,BUBBLE
+	db 6,OCTAZOOKA
 	db 15,WATER_GUN
 	db 22,BITE
 	db 28,WITHDRAW

@@ -164,6 +164,8 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw StruggleAnim
+	dw OctazookaAnim
+	dw SludgeBombAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1117,6 +1119,17 @@ SubstituteAnim:
 	db SE_SLIDE_MON_OFF, $A3
 	db $08,$FF,$47
 	db SE_SUBSTITUTE_MON, $FF
+	db $FF
+	
+OctazookaAnim:
+	db $46,$7B,$13
+	db $46,$7B,$14
+	db $FF
+	
+SludgeBombAnim:
+	db SE_DARKEN_MON_PALETTE, $48
+	db $46,$7A,$19
+	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 BallTossAnim:

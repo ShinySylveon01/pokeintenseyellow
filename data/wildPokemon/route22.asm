@@ -1,8 +1,8 @@
 Route22Mons:
 	db $19
-	db 2,NIDORAN_M
-	db 2,NIDORAN_F
-	db 3,MANKEY
+	db 2,SQUIRTLE
+	db 2,CHARMANDER
+	db 3,BULBASAUR
 	db 3,RATTATA
 	db 4,NIDORAN_M
 	db 4,NIDORAN_F

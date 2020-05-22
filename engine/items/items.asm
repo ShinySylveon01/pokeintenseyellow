@@ -50,11 +50,11 @@ ItemUsePtrTable:
 	dw ItemUseEvoStone   ; FIRE_STONE
 	dw ItemUseEvoStone   ; THUNDER_STONE
 	dw ItemUseEvoStone   ; WATER_STONE
-	dw UnusableItem      ; HP_UP
-	dw UnusableItem      ; PROTEIN
-	dw UnusableItem      ; IRON
-	dw UnusableItem      ; CARBOS
-	dw UnusableItem      ; CALCIUM
+	dw ItemUseVitamin    ; HP_UP
+	dw ItemUseVitamin    ; PROTEIN
+	dw ItemUseVitamin    ; IRON
+	dw ItemUseVitamin    ; CARBOS
+	dw ItemUseVitamin    ; CALCIUM
 	dw ItemUseVitamin    ; RARE_CANDY
 	dw UnusableItem      ; DOME_FOSSIL
 	dw UnusableItem      ; HELIX_FOSSIL
@@ -883,9 +883,6 @@ ItemUseVitamin:
 	jp nz, ItemUseNotTime
 
 ItemUseMedicine:
-	ld a, [wIsInBattle]
-	and a
-	jp nz, ItemUseNotTime
 	ld a, [wPartyCount]
 	and a
 	jp z, Func_e4bf
@@ -938,7 +935,7 @@ ItemUseMedicine:
 ; if using softboiled
 	ld a, [wWhichPokemon]
 	cp d ; is the pokemon trying to use softboiled on itself?
-	jp z, ItemUseMedicine ; if so, force another choice
+	jr z, ItemUseMedicine ; if so, force another choice
 .checkItemType
 	ld a, [wcf91]
 	cp REVIVE

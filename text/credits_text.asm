@@ -87,7 +87,7 @@ CreditsTextPointers:
 	dw CreditsText_Yamazaki
 
 CreditsText_Version:
-	db -6, "YELLOW VERSION"
+	db -6, "YELLOW KAIZO"
 	next   "    STAFF@"
 CreditsText_Tajiri:
 	db -6, "SATOSHI TAJIRI@"

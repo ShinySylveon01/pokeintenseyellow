@@ -168,6 +168,8 @@ const_value = 1
 NUM_ATTACKS EQU const_value + -1
 
 	const STRUGGLE
+	const OCTAZOOKA
+	const SLUDGE_BOMB
 
 	; Moves do double duty as animation identifiers.
 

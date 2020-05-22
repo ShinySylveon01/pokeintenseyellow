@@ -164,3 +164,5 @@ MoveNames::
 	db "SLASH@"
 	db "SUBSTITUTE@"
 	db "STRUGGLE@"
+	db "OCTAZOOKA@"
+	db "SLUDGE BOMB@"
