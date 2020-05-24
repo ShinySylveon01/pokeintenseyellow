@@ -170,6 +170,21 @@ NUM_ATTACKS EQU const_value + -1
 	const STRUGGLE
 	const OCTAZOOKA
 	const SLUDGE_BOMB
+	const VOLT_TACKLE
+	const SYNTHESIS
+	const SHADOW_BALL
+	const FLAME_WHEEL
+	const DRAGONBREATH
+	const FURY_CUTTER
+	const GIGA_DRAIN
+	const OUTRAGE
+	const AEROBLAST
+	const EXTREMESPEED
+	const ICICLE_SPEAR
+	const POISON_FANG
+	const ELECTRO_BALL
+	const SCARY_FACE
+	const FEATHERDANCE
 
 	; Moves do double duty as animation identifiers.
 

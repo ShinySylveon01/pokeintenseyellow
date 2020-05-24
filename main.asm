@@ -831,9 +831,8 @@ LoreleiPic:       INCBIN "pic/trainer/lorelei.pic"
 ChannelerPic:     INCBIN "pic/trainer/channeler.pic"
 AgathaPic:        INCBIN "pic/trainer/agatha.pic"
 LancePic:         INCBIN "pic/trainer/lance.pic"
-JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
 RedPicFront: INCBIN "pic/ytrainer/red.pic"
-
+CooltrainerMPic:  INCBIN "pic/trainer/cooltrainerm.pic"
 
 
 INCLUDE "engine/titlescreen2.asm"
@@ -1230,7 +1229,6 @@ ChiefPic:
 ScientistPic:     INCBIN "pic/trainer/scientist.pic"
 GiovanniPic:      INCBIN "pic/trainer/giovanni.pic"
 RocketPic:        INCBIN "pic/trainer/rocket.pic"
-CooltrainerMPic:  INCBIN "pic/trainer/cooltrainerm.pic"
 CooltrainerFPic:  INCBIN "pic/trainer/cooltrainerf.pic"
 BrunoPic:         INCBIN "pic/trainer/bruno.pic"
 BrockPic:         INCBIN "pic/ytrainer/brock.pic"
@@ -1243,7 +1241,7 @@ SabrinaPic:       INCBIN "pic/trainer/sabrina.pic"
 GentlemanPic:     INCBIN "pic/trainer/gentleman.pic"
 Rival2Pic:        INCBIN "pic/ytrainer/rival2.pic"
 Rival3Pic:        INCBIN "pic/ytrainer/rival3.pic"
-
+JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
 
 INCLUDE "data/mapHeaders/tradecenter.asm"
 INCLUDE "scripts/tradecenter.asm"
@@ -1988,13 +1986,14 @@ INCLUDE "engine/overworld/cut2.asm"
 
 INCLUDE "engine/overworld/ssanne.asm"
 
+INCLUDE "data/animations.asm"
+
+SECTION "bank1F", ROMX
+
 RedFishingTilesFront: INCBIN "gfx/red_fishing_tile_front.2bpp"
 RedFishingTilesBack:  INCBIN "gfx/red_fishing_tile_back.2bpp"
 RedFishingTilesSide:  INCBIN "gfx/red_fishing_tile_side.2bpp"
 RedFishingRodTiles:   INCBIN "gfx/red_fishingrod_tiles.2bpp"
-
-INCLUDE "data/animations.asm"
-
 
 SECTION "bank2f", ROMX
 

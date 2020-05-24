@@ -166,6 +166,20 @@ AttackAnimationPointers:
 	dw StruggleAnim
 	dw OctazookaAnim
 	dw SludgeBombAnim
+	dw VoltTackleAnim
+	dw SynthesisAnim
+	dw ShadowBallAnim
+	dw FlameWheelAnim
+	dw DragonBreathAnim
+	dw FuryCutterAnim
+	dw GigaDrainAnim
+	dw OutrageAnim
+	dw AeroBlastAnim
+	dw IcicleSpearAnim
+	dw PoisonFangAnim
+	dw ElectroBallAnim
+	dw ScaryFaceAnim
+	dw FeatherDanceAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1129,6 +1143,91 @@ OctazookaAnim:
 SludgeBombAnim:
 	db SE_DARKEN_MON_PALETTE, $48
 	db $46,$7A,$19
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+VoltTackleAnim:
+	db $06,$08,$02
+	db SE_DARK_SCREEN_PALETTE, $FF
+	db $46,$FF,$2B
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+	
+SynthesisAnim:
+	db SE_SPIRAL_BALLS_INWARD, $73
+	db $FF
+	
+ShadowBallAnim:
+	db SE_DARK_SCREEN_PALETTE, $6C
+	db $46,$FF,$3E
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+FlameWheelAnim:
+	db $46,$52,$0C
+	db $46,$FF,$0D
+	db $46,$FF,$0E
+	db $FF
+	
+DragonBreathAnim:
+	db $46,$51,$1F
+	db $46,$FF,$0C
+	db $46,$FF,$0D
+	db $46,$FF,$0E
+	db $FF
+
+FuryCutterAnim:
+	db SE_DARK_SCREEN_FLASH, $0E
+	db $04,$FF,$16
+	db $FF
+
+GigaDrainAnim:
+	db SE_LIGHT_SCREEN_PALETTE, $47
+	db SE_DARK_SCREEN_FLASH, $FF
+	db $06,$FF,$21
+	db $06,$FF,$22
+	db SE_DARK_SCREEN_FLASH, $FF
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+OutrageAnim:
+	db $46,$24,$04
+	db $FF
+
+AeroBlastAnim:
+	db SE_DARK_SCREEN_PALETTE, $48
+	db SE_SPIRAL_BALLS_INWARD, $FF
+	db $02,$3E,$2E
+	db SE_DARK_SCREEN_FLASH, $FF
+	db SE_DARK_SCREEN_FLASH, $FF
+	db $46,$04,$04
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+IcicleSpearAnim:
+	db $02,$1E,$46
+	db $02,$FF,$46
+	db $FF
+
+PoisonFangAnim:
+	db $06,$9D,$02
+	db $FF
+
+ElectroBallAnim:
+	db $43,$8B,$41
+	db $05,$FF,$55
+	db $FF
+
+ScaryFaceAnim:
+	db SE_DARK_SCREEN_PALETTE, $48
+	db SE_DARK_SCREEN_FLASH, $2A
+	db SE_DARK_SCREEN_FLASH, $2A
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+FeatherDanceAnim:
+	db SE_LIGHT_SCREEN_PALETTE, $4F
+	db SE_PETALS_FALLING, $FF
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
