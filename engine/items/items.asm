@@ -805,6 +805,8 @@ ItemUseEvoStone:
 	jr c, .canceledItemUse
 	ld a, b
 	ld [wcf91], a
+	call Func_d85d
+	jr nc, .noEffect
 	ld a, $01
 	ld [wForceEvolution], a
 	ld a, SFX_HEAL_AILMENT

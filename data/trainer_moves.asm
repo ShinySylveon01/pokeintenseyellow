@@ -14,8 +14,8 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK,$1
-	db 2,3,BIND
-	db 2,4,BIDE
+	db 2,3,SLASH
+	db 2,4,GIGA_DRAIN
 	db 0
 
 	db MISTY,$1
@@ -23,10 +23,10 @@ SpecialTrainerMoves:
 	db 0
 
 	db LT_SURGE,$1
-	db 1,1,THUNDERBOLT
-	db 1,2,MEGA_PUNCH
-	db 1,3,MEGA_KICK
-	db 1,4,GROWL
+	db 1,1,EXPLOSION
+	db 1,2,THUNDERBOLT
+	db 1,3,THUNDER_WAVE
+	db 1,4,HYPER_BEAM
 	db 0
 
 	db ERIKA,$1
