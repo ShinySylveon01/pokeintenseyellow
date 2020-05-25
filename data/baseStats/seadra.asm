@@ -1,7 +1,7 @@
 db DEX_SEADRA ; pokedex id
-db 55 ; base hp
-db 65 ; base attack
-db 95 ; base defense
+db 79 ; base hp
+db 101 ; base attack
+db 90 ; base defense
 db 85 ; base speed
 db 95 ; base special
 db WATER ; species type 1
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/seadra.pic",0,1 ; 66, sprite dimensions
 dw SeadraPicFront
 dw SeadraPicBack
 ; attacks known at lvl 0
-db BUBBLE
-db SMOKESCREEN
-db 0
-db 0
+db BLIZZARD
+db HYDRO_PUMP
+db DRAGONBREATH
+db TAKE_DOWN
 db 0 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 20
 	tmlearn 31,32

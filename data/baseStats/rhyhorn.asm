@@ -12,13 +12,13 @@ INCBIN "pic/ymon/rhyhorn.pic",0,1 ; 77, sprite dimensions
 dw RhyhornPicFront
 dw RhyhornPicBack
 ; attacks known at lvl 0
-db HORN_ATTACK
-db 0
-db 0
-db 0
+db BODY_SLAM
+db DIG
+db ROCK_THROW
+db TOXIC
 db 5 ; growth rate
 ; learnset
-	tmlearn 6,7,8
+	tmlearn 7,8
 	tmlearn 9,10
 	tmlearn 20,24
 	tmlearn 25,26,27,28,31,32

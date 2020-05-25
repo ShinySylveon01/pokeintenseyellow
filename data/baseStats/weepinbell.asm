@@ -12,10 +12,10 @@ INCBIN "pic/ymon/weepinbell.pic",0,1 ; 66, sprite dimensions
 dw WeepinbellPicFront
 dw WeepinbellPicBack
 ; attacks known at lvl 0
-db VINE_WHIP
-db GROWTH
+db SLEEP_POWDER
+db STUN_SPORE
+db RAZOR_LEAF
 db WRAP
-db 0
 db 3 ; growth rate
 ; learnset
 	tmlearn 3,6

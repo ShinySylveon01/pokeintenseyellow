@@ -12,13 +12,13 @@ INCBIN "pic/ymon/seaking.pic",0,1 ; 77, sprite dimensions
 dw SeakingPicFront
 dw SeakingPicBack
 ; attacks known at lvl 0
-db PECK
-db TAIL_WHIP
-db SUPERSONIC
-db 0
+db HORN_DRILL
+db SURF
+db BLIZZARD
+db TAKE_DOWN
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,7
+	tmlearn 7
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 20
 	tmlearn 31,32

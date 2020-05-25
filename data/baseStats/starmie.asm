@@ -12,13 +12,13 @@ INCBIN "pic/ymon/starmie.pic",0,1 ; 66, sprite dimensions
 dw StarmiePicFront
 dw StarmiePicBack
 ; attacks known at lvl 0
-db TACKLE
-db WATER_GUN
-db HARDEN
-db 0
+db HYDRO_PUMP
+db BLIZZARD
+db THUNDERBOLT
+db RECOVER
 db 5 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 20,24
 	tmlearn 25,29,30,31,32

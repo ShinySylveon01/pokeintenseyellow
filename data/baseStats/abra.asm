@@ -1,7 +1,7 @@
 db DEX_ABRA ; pokedex id
-db 25 ; base hp
+db 30 ; base hp
 db 20 ; base attack
-db 15 ; base defense
+db 30 ; base defense
 db 90 ; base speed
 db 105 ; base special
 db PSYCHIC ; species type 1
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/abra.pic",0,1 ; 55, sprite dimensions
 dw AbraPicFront
 dw AbraPicBack
 ; attacks known at lvl 0
-db TELEPORT
-db 0
+db PSYBEAM
+db KINESIS
 db 0
 db 0
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10
 	tmlearn 17,18,19,20
 	tmlearn 29,30,31,32

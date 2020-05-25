@@ -1,7 +1,7 @@
 db DEX_ZAPDOS ; pokedex id
 db 90 ; base hp
-db 90 ; base attack
-db 85 ; base defense
+db 95 ; base attack
+db 90 ; base defense
 db 100 ; base speed
 db 125 ; base special
 db ELECTRIC ; species type 1
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/zapdos.pic",0,1 ; 77, sprite dimensions
 dw ZapdosPicFront
 dw ZapdosPicBack
 ; attacks known at lvl 0
-db THUNDERSHOCK
-db DRILL_PECK
-db 0
-db 0
+db THUNDERBOLT
+db SKY_ATTACK
+db THUNDER_WAVE
+db DOUBLE_TEAM
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,4,6
+	tmlearn 2,4
 	tmlearn 9,10,15
 	tmlearn 20,24
 	tmlearn 25,31,32

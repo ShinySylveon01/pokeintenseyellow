@@ -7,18 +7,18 @@ db 115 ; base special
 db PSYCHIC ; species type 1
 db PSYCHIC ; species type 2
 db 75 ; catch rate
-db 165 ; base exp yield
+db 181 ; base exp yield
 INCBIN "pic/ymon/hypno.pic",0,1 ; 77, sprite dimensions
 dw HypnoPicFront
 dw HypnoPicBack
 ; attacks known at lvl 0
-db POUND
+db THUNDER_WAVE
 db HYPNOSIS
-db DISABLE
-db CONFUSION
+db PSYCHIC_M
+db MEGA_KICK
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10,15
 	tmlearn 17,18,19,20
 	tmlearn 29,30,31,32

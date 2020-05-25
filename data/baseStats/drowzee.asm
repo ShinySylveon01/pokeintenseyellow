@@ -12,13 +12,13 @@ INCBIN "pic/ymon/drowzee.pic",0,1 ; 66, sprite dimensions
 dw DrowzeePicFront
 dw DrowzeePicBack
 ; attacks known at lvl 0
-db POUND
+db CONFUSION
 db HYPNOSIS
-db 0
-db 0
+db HEADBUTT
+db POISON_GAS
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10
 	tmlearn 17,18,19,20
 	tmlearn 29,30,31,32

@@ -1,9 +1,9 @@
 db DEX_PIKACHU ; pokedex id
-db 35 ; base hp
-db 55 ; base attack
-db 30 ; base defense
-db 90 ; base speed
-db 50 ; base special
+db 60 ; base hp
+db 90 ; base attack
+db 55 ; base defense
+db 100 ; base speed
+db 90 ; base special
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 190 ; catch rate
@@ -18,7 +18,7 @@ db 0
 db 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10,16
 	tmlearn 17,19,20,24
 	tmlearn 25,31,32

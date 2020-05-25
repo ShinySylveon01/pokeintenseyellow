@@ -1,8 +1,8 @@
 db DEX_MOLTRES ; pokedex id
 db 90 ; base hp
-db 100 ; base attack
+db 101 ; base attack
 db 90 ; base defense
-db 90 ; base speed
+db 95 ; base speed
 db 125 ; base special
 db FIRE ; species type 1
 db FLYING ; species type 2
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/moltres.pic",0,1 ; 77, sprite dimensions
 dw MoltresPicFront
 dw MoltresPicBack
 ; attacks known at lvl 0
-db PECK
-db FIRE_SPIN
-db 0
-db 0
+db FIRE_BLAST
+db SOLARBEAM
+db SKY_ATTACK
+db DOUBLE_TEAM
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,4,6
+	tmlearn 2,4
 	tmlearn 9,10,15
 	tmlearn 20
 	tmlearn 31,32

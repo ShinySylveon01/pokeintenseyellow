@@ -1,7 +1,7 @@
 db DEX_ALAKAZAM ; pokedex id
-db 55 ; base hp
+db 60 ; base hp
 db 50 ; base attack
-db 45 ; base defense
+db 60 ; base defense
 db 120 ; base speed
 db 135 ; base special
 db PSYCHIC ; species type 1
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/alakazam.pic",0,1 ; 77, sprite dimensions
 dw AlakazamPicFront
 dw AlakazamPicBack
 ; attacks known at lvl 0
-db TELEPORT
-db CONFUSION
-db DISABLE
-db 0
+db THUNDER_WAVE
+db RECOVER
+db PSYCHIC_M
+db SEISMIC_TOSS
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10,15
 	tmlearn 17,18,19,20
 	tmlearn 28,29,30,31,32

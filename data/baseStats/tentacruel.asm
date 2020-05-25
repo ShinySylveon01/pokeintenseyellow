@@ -12,10 +12,10 @@ INCBIN "pic/ymon/tentacruel.pic",0,1 ; 66, sprite dimensions
 dw TentacruelPicFront
 dw TentacruelPicBack
 ; attacks known at lvl 0
-db ACID
-db SUPERSONIC
 db WRAP
-db 0
+db HYDRO_PUMP
+db BLIZZARD
+db SLUDGE_BOMB
 db 5 ; growth rate
 ; learnset
 	tmlearn 3,6

@@ -1,21 +1,21 @@
 db DEX_ARBOK ; pokedex id
-db 60 ; base hp
-db 85 ; base attack
-db 69 ; base defense
+db 70 ; base hp
+db 91 ; base attack
+db 74 ; base defense
 db 80 ; base speed
-db 65 ; base special
+db 75 ; base special
 db POISON ; species type 1
 db POISON ; species type 2
 db 90 ; catch rate
-db 147 ; base exp yield
+db 187 ; base exp yield
 INCBIN "pic/ymon/arbok.pic",0,1 ; 77, sprite dimensions
 dw ArbokPicFront
 dw ArbokPicBack
 ; attacks known at lvl 0
 db WRAP
-db LEER
-db POISON_STING
-db 0
+db GLARE
+db EARTHQUAKE
+db SLUDGE_BOMB
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

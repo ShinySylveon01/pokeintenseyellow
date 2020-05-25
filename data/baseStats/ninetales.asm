@@ -12,13 +12,13 @@ INCBIN "pic/ymon/ninetales.pic",0,1 ; 77, sprite dimensions
 dw NinetalesPicFront
 dw NinetalesPicBack
 ; attacks known at lvl 0
-db EMBER
-db TAIL_WHIP
-db QUICK_ATTACK
-db ROAR
+db FIRE_BLAST
+db BODY_SLAM
+db DIG
+db HYPNOSIS
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,8
+	tmlearn 8
 	tmlearn 9,10,15
 	tmlearn 20
 	tmlearn 28,31,32

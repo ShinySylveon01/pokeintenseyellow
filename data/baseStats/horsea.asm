@@ -1,7 +1,7 @@
 db DEX_HORSEA ; pokedex id
-db 30 ; base hp
-db 40 ; base attack
-db 70 ; base defense
+db 55 ; base hp
+db 75 ; base attack
+db 65 ; base defense
 db 60 ; base speed
 db 70 ; base special
 db WATER ; species type 1
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/horsea.pic",0,1 ; 55, sprite dimensions
 dw HorseaPicFront
 dw HorseaPicBack
 ; attacks known at lvl 0
-db BUBBLE
+db OCTAZOOKA
 db 0
 db 0
 db 0
 db 0 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9,10,11,12,13,14
 	tmlearn 20
 	tmlearn 31,32

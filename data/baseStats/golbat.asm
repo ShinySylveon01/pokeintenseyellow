@@ -1,9 +1,9 @@
 db DEX_GOLBAT ; pokedex id
-db 75 ; base hp
-db 80 ; base attack
-db 70 ; base defense
-db 90 ; base speed
-db 75 ; base special
+db 85 ; base hp
+db 90 ; base attack
+db 80 ; base defense
+db 110 ; base speed
+db 80 ; base special
 db POISON ; species type 1
 db FLYING ; species type 2
 db 90 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/golbat.pic",0,1 ; 77, sprite dimensions
 dw GolbatPicFront
 dw GolbatPicBack
 ; attacks known at lvl 0
-db LEECH_LIFE
-db SCREECH
-db BITE
-db 0
+db POISON_FANG
+db RAZOR_WIND
+db MEGA_DRAIN
+db HYPNOSIS
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,4,6

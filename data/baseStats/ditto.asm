@@ -1,13 +1,13 @@
 db DEX_DITTO ; pokedex id
-db 48 ; base hp
-db 48 ; base attack
-db 48 ; base defense
-db 48 ; base speed
-db 48 ; base special
+db 75 ; base hp
+db 75 ; base attack
+db 75 ; base defense
+db 75 ; base speed
+db 75 ; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 35 ; catch rate
-db 61 ; base exp yield
+db 176 ; base exp yield
 INCBIN "pic/ymon/ditto.pic",0,1 ; 55, sprite dimensions
 dw DittoPicFront
 dw DittoPicBack

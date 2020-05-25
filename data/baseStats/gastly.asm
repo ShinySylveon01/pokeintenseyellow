@@ -1,7 +1,7 @@
 db DEX_GASTLY ; pokedex id
-db 30 ; base hp
-db 35 ; base attack
-db 30 ; base defense
+db 35 ; base hp
+db 50 ; base attack
+db 35 ; base defense
 db 80 ; base speed
 db 100 ; base special
 db GHOST ; species type 1
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/gastly.pic",0,1 ; 77, sprite dimensions
 dw GastlyPicFront
 dw GastlyPicBack
 ; attacks known at lvl 0
-db LICK
-db CONFUSE_RAY
+db HYPNOSIS
+db SHADOW_BALL
 db NIGHT_SHADE
-db 0
+db CONFUSE_RAY
 db 3 ; growth rate
 ; learnset
 	tmlearn 6

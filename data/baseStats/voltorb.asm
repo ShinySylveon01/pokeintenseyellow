@@ -12,13 +12,13 @@ INCBIN "pic/ymon/voltorb.pic",0,1 ; 55, sprite dimensions
 dw VoltorbPicFront
 dw VoltorbPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SCREECH
-db 0
-db 0
+db THUNDERBOLT
+db THUNDER_WAVE
+db EXPLOSION
+db SONICBOOM
 db 0 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9
 	tmlearn 20,24
 	tmlearn 25,30,31,32

@@ -12,10 +12,10 @@ INCBIN "pic/ymon/tangela.pic",0,1 ; 66, sprite dimensions
 dw TangelaPicFront
 dw TangelaPicBack
 ; attacks known at lvl 0
-db CONSTRICT
-db BIND
-db 0
-db 0
+db GIGA_DRAIN
+db WRAP
+db SLEEP_POWDER
+db STUN_SPORE
 db 0 ; growth rate
 ; learnset
 	tmlearn 3,6,8

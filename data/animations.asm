@@ -175,6 +175,7 @@ AttackAnimationPointers:
 	dw GigaDrainAnim
 	dw OutrageAnim
 	dw AeroBlastAnim
+	dw ExtremeSpeedAnim
 	dw IcicleSpearAnim
 	dw PoisonFangAnim
 	dw ElectroBallAnim
@@ -1202,6 +1203,12 @@ AeroBlastAnim:
 	db SE_DARK_SCREEN_FLASH, $FF
 	db $46,$04,$04
 	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+
+ExtremeSpeedAnim:
+	db SE_SLIDE_MON_OFF, $61
+	db $46,$FF,$04
+	db SE_SHOW_MON_PIC, $FF
 	db $FF
 
 IcicleSpearAnim:

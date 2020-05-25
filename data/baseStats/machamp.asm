@@ -1,9 +1,9 @@
 db DEX_MACHAMP ; pokedex id
-db 90 ; base hp
-db 130 ; base attack
-db 80 ; base defense
-db 55 ; base speed
-db 65 ; base special
+db 91 ; base hp
+db 131 ; base attack
+db 86 ; base defense
+db 56 ; base speed
+db 86 ; base special
 db FIGHTING ; species type 1
 db FIGHTING ; species type 2
 db 45 ; catch rate
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/machamp.pic",0,1 ; 77, sprite dimensions
 dw MachampPicFront
 dw MachampPicBack
 ; attacks known at lvl 0
-db KARATE_CHOP
-db LOW_KICK
-db LEER
-db 0
+db SUBMISSION
+db BODY_SLAM
+db ROCK_SLIDE
+db EARTHQUAKE
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10,15
 	tmlearn 17,18,19,20
 	tmlearn 26,27,28,31,32

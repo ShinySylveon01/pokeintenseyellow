@@ -1,9 +1,9 @@
 db DEX_GROWLITHE ; pokedex id
-db 55 ; base hp
-db 70 ; base attack
-db 45 ; base defense
-db 60 ; base speed
-db 50 ; base special
+db 60 ; base hp
+db 80 ; base attack
+db 55 ; base defense
+db 65 ; base speed
+db 65 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 190 ; catch rate
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/growlithe.pic",0,1 ; 55, sprite dimensions
 dw GrowlithePicFront
 dw GrowlithePicBack
 ; attacks known at lvl 0
+db EMBER
 db BITE
-db ROAR
 db 0
 db 0
 db 5 ; growth rate
 ; learnset
-	tmlearn 6,8
+	tmlearn 8
 	tmlearn 9,10
 	tmlearn 20,23
 	tmlearn 28,31,32

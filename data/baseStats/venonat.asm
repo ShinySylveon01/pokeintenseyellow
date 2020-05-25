@@ -12,10 +12,10 @@ INCBIN "pic/ymon/venonat.pic",0,1 ; 55, sprite dimensions
 dw VenonatPicFront
 dw VenonatPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DISABLE
-db 0
-db 0
+db SLEEP_POWDER
+db SUPERSONIC
+db CONFUSION
+db MEGA_DRAIN
 db 0 ; growth rate
 ; learnset
 	tmlearn 6

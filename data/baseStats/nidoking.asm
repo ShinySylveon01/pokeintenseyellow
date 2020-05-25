@@ -1,9 +1,9 @@
 db DEX_NIDOKING ; pokedex id
 db 81 ; base hp
-db 92 ; base attack
-db 77 ; base defense
+db 97 ; base attack
+db 82 ; base defense
 db 85 ; base speed
-db 75 ; base special
+db 80 ; base special
 db POISON ; species type 1
 db GROUND ; species type 2
 db 45 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/nidoking.pic",0,1 ; 77, sprite dimensions
 dw NidokingPicFront
 dw NidokingPicBack
 ; attacks known at lvl 0
-db TACKLE
-db HORN_ATTACK
-db POISON_STING
-db THRASH
+db LOVELY_KISS
+db BLIZZARD
+db THUNDERBOLT
+db EARTHQUAKE
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,7,8

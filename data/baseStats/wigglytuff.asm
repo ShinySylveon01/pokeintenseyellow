@@ -7,18 +7,18 @@ db 50 ; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 50 ; catch rate
-db 109 ; base exp yield
+db 175 ; base exp yield
 INCBIN "pic/ymon/wigglytuff.pic",0,1 ; 66, sprite dimensions
 dw WigglytuffPicFront
 dw WigglytuffPicBack
 ; attacks known at lvl 0
 db SING
-db DISABLE
-db DEFENSE_CURL
-db DOUBLESLAP
+db THUNDERBOLT
+db BLIZZARD
+db PSYCHIC_M
 db 4 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 17,18,19,20,22,24
 	tmlearn 25,29,30,31,32

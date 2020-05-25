@@ -1,9 +1,9 @@
 db DEX_VENUSAUR ; pokedex id
-db 80 ; base hp
-db 82 ; base attack
-db 83 ; base defense
-db 80 ; base speed
-db 100 ; base special
+db 85 ; base hp
+db 100 ; base attack
+db 107 ; base defense
+db 81 ; base speed
+db 122 ; base special
 db GRASS ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/venusaur.pic",0,1 ; 77, sprite dimensions
 dw VenusaurPicFront
 dw VenusaurPicBack
 ; attacks known at lvl 0
-db TACKLE
-db GROWL
-db LEECH_SEED
-db VINE_WHIP
+db SLEEP_POWDER
+db RAZOR_LEAF
+db BODY_SLAM
+db SLUDGE_BOMB
 db 3 ; growth rate
 ; learnset
 	tmlearn 3,6,8

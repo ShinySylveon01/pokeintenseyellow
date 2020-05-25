@@ -7,18 +7,18 @@ db 45 ; base special
 db BUG ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate
-db 159 ; base exp yield
+db 161 ; base exp yield
 INCBIN "pic/ymon/beedrill.pic",0,1 ; 77, sprite dimensions
 dw BeedrillPicFront
 dw BeedrillPicBack
 ; attacks known at lvl 0
 db FURY_ATTACK
-db 0
-db 0
-db 0
+db TWINEEDLE
+db POISON_STING
+db FOCUS_ENERGY
 db 0 ; growth rate
 ; learnset
-	tmlearn 3,6
+	tmlearn 3
 	tmlearn 9,10,15
 	tmlearn 20,21
 	tmlearn 31,32

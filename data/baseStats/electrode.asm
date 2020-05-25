@@ -7,18 +7,18 @@ db 80 ; base special
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 60 ; catch rate
-db 150 ; base exp yield
+db 170 ; base exp yield
 INCBIN "pic/ymon/electrode.pic",0,1 ; 55, sprite dimensions
 dw ElectrodePicFront
 dw ElectrodePicBack
 ; attacks known at lvl 0
-db TACKLE
-db SCREECH
-db SONICBOOM
-db 0
+db EXPLOSION
+db ELECTRO_BALL
+db THUNDER_WAVE
+db HYPER_BEAM
 db 0 ; growth rate
 ; learnset
-	tmlearn 6
+	tmlearn 0
 	tmlearn 9,15
 	tmlearn 20,24
 	tmlearn 25,30,31,32

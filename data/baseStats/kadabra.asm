@@ -1,7 +1,7 @@
 db DEX_KADABRA ; pokedex id
-db 40 ; base hp
+db 45 ; base hp
 db 35 ; base attack
-db 30 ; base defense
+db 45 ; base defense
 db 105 ; base speed
 db 120 ; base special
 db PSYCHIC ; species type 1
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/kadabra.pic",0,1 ; 66, sprite dimensions
 dw KadabraPicFront
 dw KadabraPicBack
 ; attacks known at lvl 0
-db TELEPORT
-db CONFUSION
-db DISABLE
-db 0
+db PSYBEAM
+db RECOVER
+db THUNDER_WAVE
+db SEISMIC_TOSS
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10
 	tmlearn 17,18,19,20
 	tmlearn 28,29,30,31,32

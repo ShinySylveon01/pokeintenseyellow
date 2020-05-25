@@ -1,14 +1,14 @@
 MonBaseStats:
 db DEX_BULBASAUR ; pokedex id
-db 45 ; base hp
-db 49 ; base attack
-db 49 ; base defense
+db 50 ; base hp
+db 55 ; base attack
+db 50 ; base defense
 db 45 ; base speed
-db 65 ; base special
+db 75 ; base special
 db GRASS ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate
-db 64 ; base exp yield
+db 80 ; base exp yield
 INCBIN "pic/ymon/bulbasaur.pic",0,1 ; 55, sprite dimensions
 dw BulbasaurPicFront
 dw BulbasaurPicBack

@@ -12,13 +12,13 @@ INCBIN "pic/ymon/slowbro.pic",0,1 ; 77, sprite dimensions
 dw SlowbroPicFront
 dw SlowbroPicBack
 ; attacks known at lvl 0
-db CONFUSION
-db DISABLE
-db HEADBUTT
-db 0
+db THUNDER_WAVE
+db SURF
+db BLIZZARD
+db PSYCHIC_M
 db 0 ; growth rate
 ; learnset
-	tmlearn 1,5,6,8
+	tmlearn 1,5,8
 	tmlearn 9,10,11,12,13,14,15,16
 	tmlearn 17,18,19,20
 	tmlearn 26,27,28,29,30,31,32

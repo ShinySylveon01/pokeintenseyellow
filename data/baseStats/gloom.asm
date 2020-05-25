@@ -12,10 +12,10 @@ INCBIN "pic/ymon/gloom.pic",0,1 ; 66, sprite dimensions
 dw GloomPicFront
 dw GloomPicBack
 ; attacks known at lvl 0
-db ABSORB
-db POISONPOWDER
+db PETAL_DANCE
+db SLEEP_POWDER
 db STUN_SPORE
-db 0
+db ACID
 db 3 ; growth rate
 ; learnset
 	tmlearn 3,6

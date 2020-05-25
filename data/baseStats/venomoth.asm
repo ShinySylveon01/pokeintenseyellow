@@ -7,15 +7,15 @@ db 90 ; base special
 db BUG ; species type 1
 db POISON ; species type 2
 db 75 ; catch rate
-db 138 ; base exp yield
+db 181 ; base exp yield
 INCBIN "pic/ymon/venomoth.pic",0,1 ; 77, sprite dimensions
 dw VenomothPicFront
 dw VenomothPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DISABLE
-db POISONPOWDER
-db LEECH_LIFE
+db PSYCHIC_M
+db SOLARBEAM
+db SLEEP_POWDER
+db SLUDGE_BOMB
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,4,6

@@ -12,10 +12,10 @@ INCBIN "pic/ymon/diglett.pic",0,1 ; 55, sprite dimensions
 dw DiglettPicFront
 dw DiglettPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db 0
-db 0
-db 0
+db DIG
+db ROCK_SLIDE
+db SLASH
+db DOUBLE_TEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

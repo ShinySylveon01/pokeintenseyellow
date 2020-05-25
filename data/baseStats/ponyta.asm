@@ -1,9 +1,9 @@
 db DEX_PONYTA ; pokedex id
-db 50 ; base hp
-db 85 ; base attack
-db 55 ; base defense
-db 90 ; base speed
-db 65 ; base special
+db 56 ; base hp
+db 86 ; base attack
+db 56 ; base defense
+db 91 ; base speed
+db 71 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 190 ; catch rate
@@ -13,12 +13,12 @@ dw PonytaPicFront
 dw PonytaPicBack
 ; attacks known at lvl 0
 db EMBER
-db 0
-db 0
-db 0
+db DOUBLE_KICK
+db STOMP
+db HYPNOSIS
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,7,8
+	tmlearn 7,8
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32

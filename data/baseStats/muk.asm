@@ -3,7 +3,7 @@ db 105 ; base hp
 db 105 ; base attack
 db 75 ; base defense
 db 50 ; base speed
-db 65 ; base special
+db 100 ; base special
 db POISON ; species type 1
 db POISON ; species type 2
 db 75 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/muk.pic",0,1 ; 77, sprite dimensions
 dw MukPicFront
 dw MukPicBack
 ; attacks known at lvl 0
-db POUND
-db DISABLE
-db POISON_GAS
-db 0
+db SLUDGE_BOMB
+db MEGA_DRAIN
+db THUNDERBOLT
+db FIRE_BLAST
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

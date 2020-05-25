@@ -3,7 +3,7 @@ db 80 ; base hp
 db 80 ; base attack
 db 50 ; base defense
 db 25 ; base speed
-db 40 ; base special
+db 50 ; base special
 db POISON ; species type 1
 db POISON ; species type 2
 db 190 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/grimer.pic",0,1 ; 55, sprite dimensions
 dw GrimerPicFront
 dw GrimerPicBack
 ; attacks known at lvl 0
-db POUND
-db DISABLE
-db 0
-db 0
+db MINIMIZE
+db SLUDGE
+db BODY_SLAM
+db TOXIC
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

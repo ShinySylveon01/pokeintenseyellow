@@ -12,13 +12,13 @@ INCBIN "pic/ymon/seel.pic",0,1 ; 66, sprite dimensions
 dw SeelPicFront
 dw SeelPicBack
 ; attacks known at lvl 0
-db HEADBUTT
-db 0
-db 0
-db 0
+db AURORA_BEAM
+db BUBBLEBEAM
+db TAKE_DOWN
+db REST
 db 0 ; growth rate
 ; learnset
-	tmlearn 6,7,8
+	tmlearn 7,8
 	tmlearn 9,10,11,12,13,14,16
 	tmlearn 20
 	tmlearn 31,32

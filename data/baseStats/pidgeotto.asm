@@ -1,8 +1,8 @@
 db DEX_PIDGEOTTO ; pokedex id
 db 63 ; base hp
-db 60 ; base attack
+db 75 ; base attack
 db 55 ; base defense
-db 71 ; base speed
+db 81 ; base speed
 db 50 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/pidgeotto.pic",0,1 ; 66, sprite dimensions
 dw PidgeottoPicFront
 dw PidgeottoPicBack
 ; attacks known at lvl 0
-db GUST
+db WING_ATTACK
 db SAND_ATTACK
-db 0
-db 0
+db QUICK_ATTACK
+db FEATHERDANCE
 db 3 ; growth rate
 ; learnset
-	tmlearn 2,4,6
+	tmlearn 2,4
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32

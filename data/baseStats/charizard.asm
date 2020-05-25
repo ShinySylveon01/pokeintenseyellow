@@ -1,9 +1,9 @@
 db DEX_CHARIZARD ; pokedex id
-db 78 ; base hp
-db 84 ; base attack
-db 78 ; base defense
-db 100 ; base speed
-db 85 ; base special
+db 80 ; base hp
+db 104 ; base attack
+db 80 ; base defense
+db 101 ; base speed
+db 130 ; base special
 db FIRE ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
@@ -12,13 +12,13 @@ INCBIN "pic/ymon/charizard.pic",0,1 ; 77, sprite dimensions
 dw CharizardPicFront
 dw CharizardPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db GROWL
-db EMBER
-db LEER
+db FLAMETHROWER
+db SLASH
+db BODY_SLAM
+db EARTHQUAKE
 db 3 ; growth rate
 ; learnset
-	tmlearn 1,3,5,6,8
+	tmlearn 1,3,5,8
 	tmlearn 9,10,15
 	tmlearn 17,18,19,20,23
 	tmlearn 26,27,28,31,32
