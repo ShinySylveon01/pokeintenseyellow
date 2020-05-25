@@ -16,10 +16,10 @@ SilphCo3Object:
 	db 0 ; signs
 
 	db 4 ; objects
-	object SPRITE_LAPRAS_GIVER, 24, 8, STAY, NONE, 1 ; person
-	object SPRITE_ROCKET, 20, 7, STAY, LEFT, 2, OPP_ROCKET, 25
-	object SPRITE_OAK_AIDE, 7, 9, STAY, DOWN, 3, OPP_SCIENTIST, 4
-	object SPRITE_BALL, 8, 5, STAY, NONE, 4, HYPER_POTION
+	object SPRITE_LAPRAS_GIVER, 25,  1, STAY, NONE, 1 ; person
+	object SPRITE_ROCKET, 26,  3, STAY, LEFT, 2, OPP_ROCKET, 25
+	object SPRITE_OAK_AIDE, 27,  2, STAY, DOWN, 3, OPP_SCIENTIST, 4
+	object SPRITE_BALL,  7,  5, STAY, NONE, 4, HYPER_POTION
 
 	; warp-to
 	warp_to 26, 0, SILPH_CO_3F_WIDTH ; SILPH_CO_2F

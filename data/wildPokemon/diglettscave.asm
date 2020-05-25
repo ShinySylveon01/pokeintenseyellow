@@ -8,7 +8,7 @@ CaveMons:
 	db 15,DIGLETT
 	db 21,DIGLETT
 	db 22,DIGLETT
-	db 29,DUGTRIO
-	db 31,DUGTRIO
+	db 27,DUGTRIO
+	db 27,DUGTRIO
 	db $00
 
