@@ -14,7 +14,7 @@ dw ButterfreePicBack
 ; attacks known at lvl 0
 db SLEEP_POWDER
 db STUN_SPORE
-db CONFUSION
+db PSYBEAM
 db MEGA_DRAIN
 db 0 ; growth rate
 ; learnset

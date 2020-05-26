@@ -13,8 +13,8 @@ dw VenonatPicFront
 dw VenonatPicBack
 ; attacks known at lvl 0
 db SLEEP_POWDER
-db SUPERSONIC
-db CONFUSION
+db STUN_SPORE
+db PSYBEAM
 db MEGA_DRAIN
 db 0 ; growth rate
 ; learnset

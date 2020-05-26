@@ -1,6 +1,3 @@
-; See constants/evolution_constants.asm
-; The max number of evolutions per monster is MAX_EVOLUTIONS
-
 EvosMovesPointerTable:
 	dw RhydonEvosMoves
 	dw KangaskhanEvosMoves
@@ -900,10 +897,10 @@ VenonatEvosMoves:
 ; Learnset
 	db 24, SLEEP_POWDER
 	db 27, SLEEP_POWDER
-	db 30, SUPERSONIC
-	db 35, SUPERSONIC
-	db 38, CONFUSION
-	db 43, CONFUSION
+	db 30, STUN_SPORE
+	db 35, STUN_SPORE
+	db 38, PSYBEAM
+	db 43, PSYBEAM
 	db 0
 
 DragoniteEvosMoves:
@@ -1487,8 +1484,8 @@ ButterfreeEvosMoves:
 	db 15, SLEEP_POWDER
 	db 16, STUN_SPORE
 	db 17, STUN_SPORE
-	db 21, CONFUSION
-	db 26, CONFUSION
+	db 21, PSYBEAM
+	db 26, PSYBEAM
 	db 32, MEGA_DRAIN
 	db 0
 

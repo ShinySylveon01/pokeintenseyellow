@@ -1,14 +1,14 @@
 Route2Mons:
 	db $19
-	db 3,RATTATA
-	db 3,PIDGEY
-	db 4,RATTATA
-	db 4,NIDORAN_M
-	db 4,NIDORAN_F
-	db 5,PIDGEY
-	db 6,NIDORAN_M
-	db 6,NIDORAN_F
-	db 7,PIDGEY
-	db 7,PIDGEY
+	db 5,CUBONE
+	db 5,SANDSHREW
+	db 5,EKANS
+	db 5,VULPIX
+	db 5,DIGLETT
+	db 5,MANKEY
+	db 5,GROWLITHE
+	db 5,JIGGLYPUFF
+	db 5,PSYDUCK
+	db 5,MEOWTH
 	db $00
 
