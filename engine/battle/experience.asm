@@ -31,22 +31,22 @@ GainExperience:
 	ld a, [hli]
 	ld b, a ; enemy mon base stat
 	ld a, [de] ; stat exp
-	add b ; add enemy mon base state to stat exp
-	nop
+	nop ; add enemy mon base state to stat exp
+	ld [de], a
 	jr nc, .nextBaseStat
 ; if there was a carry, increment the upper byte
 	dec de
 	ld a, [de]
 	inc a
 	jr z, .maxStatExp ; jump if the value overflowed
-	nop
+	ld [de], a
 	inc de
 	jr .nextBaseStat
 .maxStatExp ; if the upper byte also overflowed, then we have hit the max stat exp
 	dec a ; a is 0 from previous check
-	nop
+	ld [de], a
 	inc de
-	nop
+	ld [de], a
 .nextBaseStat
 	dec c
 	jr z, .statExpDone

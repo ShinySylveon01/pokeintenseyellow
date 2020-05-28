@@ -1,14 +1,14 @@
 Route17Mons:
 	db $19
-	db 26,DODUO
-	db 27,FEAROW
-	db 27,DODUO
-	db 28,DODUO
-	db 28,PONYTA
-	db 30,PONYTA
-	db 29,FEAROW
-	db 28,DODUO
-	db 32,PONYTA
-	db 29,DODRIO
+	db 56,VOLTORB
+	db 56,KOFFING
+	db 56,GRIMER
+	db 56,GROWLITHE
+	db 56,GRAVELER
+	db 56,FEAROW
+	db 56,WEEZING
+	db 56,MUK
+	db 56,ELECTRODE
+	db 56,DODRIO
 	db $00
 
