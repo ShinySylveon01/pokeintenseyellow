@@ -27,13 +27,14 @@ _KogaAfterBattleText::
 
 _KogaExplainToxicText::
 	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	line "SLUDGE BOMB!"
+	
+	para "Your #MON will"
+	line "suffer to hell!"
 
 	para "It will surely"
-	line "terrorize foes!"
+	line "poison the foe!"
+	done
 	done
 
 _FuchsiaGymText9::
@@ -60,11 +61,11 @@ _ReceivedTM06Text::
 _TM06ExplanationText::
 	db $0
 	para "TM06 contains"
-	line "TOXIC!"
+	line "SLUDGE BOMB!"
 
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	para "It is a new move"
+	line "introduced in the"
+	cont "world of JOHTO!"
 	done
 
 _TM06NoRoomText::

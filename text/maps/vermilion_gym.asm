@@ -54,7 +54,7 @@ _ReceivedTM24Text::
 _TM24ExplanationText::
 	db $0
 	para "TM24 contains"
-	line "THUNDERBOLT!"
+	line "VOLT TACKLE!"
 
 	para "Teach it to an"
 	line "electric #MON!"

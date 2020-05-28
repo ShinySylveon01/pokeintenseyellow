@@ -70,7 +70,7 @@ _ReceivedTM21Text::
 _TM21ExplanationText::
 	db $0
 	para "TM21 contains"
-	line "MEGA DRAIN."
+	line "GIGA DRAIN."
 
 	para "Half the damage"
 	line "it inflicts is"
