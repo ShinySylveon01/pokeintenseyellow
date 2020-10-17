@@ -189,9 +189,9 @@ DisplayIntroNameTextBox:
 
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "JULIA"
-	next "MEGAN"
-	next "KYRA"
+	next "ADAM"
+	next "TRAVIS"
+	next "DANIEL"
 	db   "@"
 
 DefaultNamesRival:
@@ -227,9 +227,9 @@ GetDefaultName:
 
 DefaultNamesPlayerList:
 	db "NEW NAME@"
-	db "JULIA@"
-	db "MEGAN@"
-	db "KYRA@"
+	db "ADAM@"
+	db "TRAVIS@"
+	db "DANIEL@"
 
 DefaultNamesRivalList:
 	db "NEW NAME@"

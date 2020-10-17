@@ -1,8 +1,8 @@
 ItemPrices:
 	money 0     ; MASTER_BALL
-	money 1200  ; ULTRA_BALL
-	money 600   ; GREAT_BALL
-	money 200   ; POKE_BALL
+	money 500   ; ULTRA_BALL
+	money 300   ; GREAT_BALL
+	money 5     ; POKE_BALL
 	money 0     ; TOWN_MAP
 	money 0     ; BICYCLE
 	money 0     ; SURFBOARD
@@ -14,11 +14,11 @@ ItemPrices:
 	money 250   ; ICE_HEAL
 	money 200   ; AWAKENING
 	money 200   ; PARLYZ_HEAL
-	money 3000  ; FULL_RESTORE
-	money 2500  ; MAX_POTION
-	money 1500  ; HYPER_POTION
-	money 700   ; SUPER_POTION
-	money 300   ; POTION
+	money 300   ; FULL_RESTORE
+	money 250   ; MAX_POTION
+	money 100   ; HYPER_POTION
+	money 50    ; SUPER_POTION
+	money 10    ; POTION
 	money 0     ; BOULDERBADGE
 	money 0     ; CASCADEBADGE
 	money 0     ; THUNDERBADGE
@@ -28,7 +28,7 @@ ItemPrices:
 	money 0     ; VOLCANOBADGE
 	money 0     ; EARTHBADGE
 	money 550   ; ESCAPE_ROPE
-	money 350   ; REPEL
+	money 35    ; REPEL
 	money 0     ; OLD_AMBER
 	money 2100  ; FIRE_STONE
 	money 2100  ; THUNDER_STONE
@@ -54,8 +54,8 @@ ItemPrices:
 	money 1500  ; REVIVE
 	money 4000  ; MAX_REVIVE
 	money 700   ; GUARD_SPEC
-	money 500   ; SUPER_REPEL
-	money 700   ; MAX_REPEL
+	money 30    ; SUPER_REPEL
+	money 70    ; MAX_REPEL
 	money 650   ; DIRE_HIT
 	money 10    ; COIN
 	money 200   ; FRESH_WATER

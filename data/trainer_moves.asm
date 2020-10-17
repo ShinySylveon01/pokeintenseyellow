@@ -326,7 +326,7 @@ SpecialTrainerMoves:
 	db 4,1,ROCK_SLIDE
 	db 4,2,EARTHQUAKE
 	db 4,3,RAZOR_WIND
-	db 4,4,PSYCHIC_M
+	db 4,4,SKY_ATTACK
 	db 5,1,BLIZZARD
 	db 5,2,WRAP
 	db 5,3,THUNDER_WAVE

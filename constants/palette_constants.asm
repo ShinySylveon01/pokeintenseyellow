@@ -57,3 +57,5 @@ const_value = 0
 	const PAL_25        ; $25
 	const PAL_26        ; $26
 	const PAL_27        ; $27
+	const PAL_SCYTHMON  ; $28
+	const PAL_FARFEMON

@@ -479,3 +479,15 @@ GBCBasePalettes:
 	RGB  9,  9,  9
 	RGB 31, 21,  0
 	RGB  3,  3,  3
+	
+	; PAL_SCYTHMON
+	RGB 31, 31, 31
+	RGB 14, 26,  0
+	RGB 23, 25,  0
+	RGB  3,  3,  3
+	
+	; PAL_FARFEMON
+	RGB 31, 31, 31 
+	RGB 23, 11, 7
+	RGB  5, 26, 0
+	RGB  3,  3, 3
