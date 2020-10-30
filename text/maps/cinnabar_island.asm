@@ -30,8 +30,8 @@ _CinnabarIslandText6::
 _CinnabarIslandText7::
 	text "CINNABAR ISLAND"
 	line "#MON GYM"
-	cont "LEADER: BLAINE"
+	cont "LEADER: AGATHA"
 
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	para "The Mind of GHOST"
+	line "#MON!"
 	done

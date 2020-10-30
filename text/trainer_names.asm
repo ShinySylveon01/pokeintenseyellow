@@ -31,7 +31,7 @@ TrainerNames:
 	db "ROCKET@"
 	db "COOLTRAINER♂@"
 	db "COOLTRAINER♀@"
-	db "BRUNO@"
+	db "CHUCK@"
 	db "BROCK@"
 	db "MISTY@"
 	db "LT.SURGE@"

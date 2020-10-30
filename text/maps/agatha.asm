@@ -1,41 +1,29 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
+	text "I am BLAINE of"
 	line "the ELITE FOUR!"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "I have come to"
+	line "replace AGATHA in"
+	cont "her position as"
+	cont "ELITE FOUR!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
-
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
-
-	para $52, "! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "Ready to taste"
+	line "the flames my boy!"
 	done
 
 _AgathaEndBattleText::
-	text "Woo-hoo!"
-	line "You're something"
-	cont "special, child!"
+	text "Ah damn"
+	line "you beat me!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "You have proven"
+	line "yourself a strong"
+	cont "trainer!"
 
 	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	line "else to say at"
+	cont "this point!"
 	done
 
 _AgathaDontRunAwayText::

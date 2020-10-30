@@ -1,21 +1,21 @@
 _BlaineBattleText::
-	text "Hah!"
+	text "Hello!"
 
-	para "I am BLAINE! I"
+	para "I am AGATHA! I"
 	line "am the LEADER of"
 	cont "CINNABAR GYM!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "My ghost #MON"
+	line "will eat the soul"
+	cont "of your #MON!"
 
 	para "Hah! You better"
-	line "have BURN HEAL!"
+	line "have AWAKENING!"
 	done
 
 _BlaineEndBattleText::
 	text "I have"
-	line "burnt out!"
+	line "indeed lost!"
 
 	para "You have earned"
 	line "the VOLCANOBADGE!@@"
