@@ -1789,6 +1789,9 @@ Mansion_GFX:       INCBIN "gfx/tilesets/mansion.2bpp"
 Mansion_Block:     INCBIN "gfx/blocksets/mansion.bst"
 ShipPort_GFX:      INCBIN "gfx/tilesets/shipport.2bpp"
 ShipPort_Block:    INCBIN "gfx/blocksets/shipport.bst"
+
+SECTION "bank20", ROMX
+
 Interior_GFX:      INCBIN "gfx/tilesets/interior.2bpp"
 Interior_Block:    INCBIN "gfx/blocksets/interior.bst"
 Plateau_GFX:       INCBIN "gfx/tilesets/plateau.2bpp"
