@@ -148,7 +148,7 @@ MoveNames::
 	db "SPORE@"
 	db "FLASH@"
 	db "PSYWAVE@"
-	db "SPLASH@"
+	db "CLOSE COMBAT@"
 	db "ACID ARMOR@"
 	db "CRABHAMMER@"
 	db "EXPLOSION@"

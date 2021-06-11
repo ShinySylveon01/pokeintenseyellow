@@ -148,7 +148,7 @@ AttackAnimationPointers:
 	dw SporeAnim
 	dw FlashAnim
 	dw PsywaveAnim
-	dw SplashAnim
+	dw CloseCombatAnim
 	dw AcidArmorAnim
 	dw CrabHammerAnim
 	dw ExplosionAnim
@@ -1060,8 +1060,12 @@ PsywaveAnim:
 	db SE_WAVY_SCREEN, $5C
 	db $FF
 
-SplashAnim:
-	db SE_BOUNCE_UP_AND_DOWN, $95
+CloseCombatAnim:
+	db SE_DARK_SCREEN_FLASH, $FF
+	db SE_DARK_SCREEN_FLASH, $FF
+	db SE_DARK_SCREEN_FLASH, $FF
+	db $46,$04,$04
+	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 AcidArmorAnim:

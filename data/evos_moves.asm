@@ -685,7 +685,7 @@ HitmonchanEvosMoves:
 ; Learnset
 	db 33, BODY_SLAM
 	db 38, BODY_SLAM
-	db 43, SUBMISSION
+	db 43, CLOSE_COMBAT
 	db 48, SEISMIC_TOSS
 	db 53, DOUBLE_TEAM
 	db 0
@@ -1409,8 +1409,8 @@ PrimeapeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, SUBMISSION
-	db 21, SUBMISSION
+	db 15, CLOSE_COMBAT
+	db 21, CLOSE_COMBAT
 	db 27, BODY_SLAM
 	db 37, DIG
 	db 46, ROCK_SLIDE
@@ -1493,8 +1493,8 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, SUBMISSION
-	db 25, SUBMISSION
+	db 20, CLOSE_COMBAT
+	db 25, CLOSE_COMBAT
 	db 36, BODY_SLAM
 	db 44, ROCK_SLIDE
 	db 52, EARTHQUAKE
