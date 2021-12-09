@@ -1,9 +1,9 @@
 db DEX_DUGTRIO ; pokedex id
-db 35 ; base hp
-db 80 ; base attack
-db 50 ; base defense
+db 60 ; base hp
+db 75 ; base attack
+db 100 ; base defense
 db 120 ; base speed
-db 70 ; base special
+db 80 ; base special
 db GROUND ; species type 1
 db GROUND ; species type 2
 db 50 ; catch rate

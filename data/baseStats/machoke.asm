@@ -12,10 +12,10 @@ INCBIN "pic/ymon/machoke.pic",0,1 ; 77, sprite dimensions
 dw MachokePicFront
 dw MachokePicBack
 ; attacks known at lvl 0
-db MEGA_PUNCH
-db SUBMISSION
-db ROCK_SLIDE
-db EARTHQUAKE
+db LOW_KICK
+db SEISMIC_TOSS
+db LEER
+db KARATE_CHOP
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,8

@@ -13,9 +13,9 @@ dw PoliwrathPicFront
 dw PoliwrathPicBack
 ; attacks known at lvl 0
 db LOVELY_KISS
-db BLIZZARD
-db HYDRO_PUMP
 db EARTHQUAKE
+db SURF
+db ICE_BEAM
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,8

@@ -12,9 +12,9 @@ INCBIN "pic/ymon/jigglypuff.pic",0,1 ; 55, sprite dimensions
 dw JigglypuffPicFront
 dw JigglypuffPicBack
 ; attacks known at lvl 0
+db POUND
+db DEFENSE_CURL
 db SING
-db 0
-db 0
 db 0
 db 4 ; growth rate
 ; learnset

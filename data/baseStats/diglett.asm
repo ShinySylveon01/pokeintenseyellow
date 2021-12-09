@@ -1,9 +1,9 @@
 db DEX_DIGLETT ; pokedex id
-db 10 ; base hp
+db 40 ; base hp
 db 55 ; base attack
-db 25 ; base defense
+db 80 ; base defense
 db 95 ; base speed
-db 45 ; base special
+db 60 ; base special
 db GROUND ; species type 1
 db GROUND ; species type 2
 db 255 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/diglett.pic",0,1 ; 55, sprite dimensions
 dw DiglettPicFront
 dw DiglettPicBack
 ; attacks known at lvl 0
-db DIG
-db ROCK_SLIDE
-db SLASH
-db DOUBLE_TEAM
+db SCRATCH
+db GROWL
+db 0
+db 0
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

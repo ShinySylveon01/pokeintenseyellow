@@ -12,10 +12,10 @@ INCBIN "pic/ymon/ekans.pic",0,1 ; 55, sprite dimensions
 dw EkansPicFront
 dw EkansPicBack
 ; attacks known at lvl 0
-db WRAP
-db GLARE
-db ACID
 db BITE
+db LEER
+db WRAP
+db 0
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8

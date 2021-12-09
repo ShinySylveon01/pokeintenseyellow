@@ -12,10 +12,10 @@ INCBIN "pic/ymon/geodude.pic",0,1 ; 55, sprite dimensions
 dw GeodudePicFront
 dw GeodudePicBack
 ; attacks known at lvl 0
+db TACKLE
+db DEFENSE_CURL
 db ROCK_THROW
-db MEGA_PUNCH
-db DIG
-db SEISMIC_TOSS
+db 0
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,8

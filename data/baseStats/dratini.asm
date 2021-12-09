@@ -15,7 +15,7 @@ dw DratiniPicBack
 db THUNDER_WAVE
 db DRAGONBREATH
 db WRAP
-db ICE_BEAM
+db SLAM
 db 5 ; growth rate
 ; learnset
 	tmlearn 8

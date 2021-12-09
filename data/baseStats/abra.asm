@@ -12,9 +12,9 @@ INCBIN "pic/ymon/abra.pic",0,1 ; 55, sprite dimensions
 dw AbraPicFront
 dw AbraPicBack
 ; attacks known at lvl 0
-db PSYBEAM
+db CONFUSION
 db KINESIS
-db 0
+db BARRIER
 db 0
 db 3 ; growth rate
 ; learnset

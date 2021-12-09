@@ -13,9 +13,9 @@ dw OnixPicFront
 dw OnixPicBack
 ; attacks known at lvl 0
 db BIND
-db EARTHQUAKE
-db ROCK_SLIDE
-db BODY_SLAM
+db ROCK_THROW
+db SCREECH
+db TOXIC
 db 0 ; growth rate
 ; learnset
 	tmlearn 8

@@ -1,9 +1,9 @@
 db DEX_PARAS ; pokedex id
-db 44 ; base hp
-db 86 ; base attack
+db 60 ; base hp
+db 70 ; base attack
 db 60 ; base defense
-db 45 ; base speed
-db 55 ; base special
+db 35 ; base speed
+db 60 ; base special
 db BUG ; species type 1
 db GRASS ; species type 2
 db 190 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/paras.pic",0,1 ; 55, sprite dimensions
 dw ParasPicFront
 dw ParasPicBack
 ; attacks known at lvl 0
-db STUN_SPORE
-db SPORE
-db SLASH
-db GIGA_DRAIN
+db SCRATCH
+db LEECH_LIFE
+db ABSORB
+db LEECH_SEED
 db 0 ; growth rate
 ; learnset
 	tmlearn 3,8

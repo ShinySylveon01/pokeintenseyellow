@@ -12,7 +12,7 @@ INCBIN "pic/ymon/hitmonlee.pic",0,1 ; 77, sprite dimensions
 dw HitmonleePicFront
 dw HitmonleePicBack
 ; attacks known at lvl 0
-db HI_JUMP_KICK
+db CLOSE_COMBAT
 db BODY_SLAM
 db SEISMIC_TOSS
 db ROCK_SLIDE

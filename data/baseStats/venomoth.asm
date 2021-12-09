@@ -1,9 +1,9 @@
 db DEX_VENOMOTH ; pokedex id
-db 70 ; base hp
+db 85 ; base hp
 db 65 ; base attack
-db 60 ; base defense
-db 90 ; base speed
-db 90 ; base special
+db 65 ; base defense
+db 100; base speed
+db 135 ; base special
 db BUG ; species type 1
 db POISON ; species type 2
 db 75 ; catch rate

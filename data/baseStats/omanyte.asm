@@ -12,10 +12,10 @@ INCBIN "pic/ymon/omanyte.pic",0,1 ; 55, sprite dimensions
 dw OmanytePicFront
 dw OmanytePicBack
 ; attacks known at lvl 0
-db BUBBLEBEAM
-db ICE_BEAM
-db TAKE_DOWN
-db DOUBLE_TEAM
+db WATER_GUN
+db BITE
+db SUPERSONIC
+db BIND
 db 0 ; growth rate
 ; learnset
 	tmlearn 8

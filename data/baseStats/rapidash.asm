@@ -13,7 +13,7 @@ dw RapidashPicFront
 dw RapidashPicBack
 ; attacks known at lvl 0
 db HORN_DRILL
-db FIRE_SPIN
+db FIRE_BLAST
 db BODY_SLAM
 db HYPNOSIS
 db 0 ; growth rate

@@ -12,10 +12,10 @@ INCBIN "pic/ymon/doduo.pic",0,1 ; 55, sprite dimensions
 dw DoduoPicFront
 dw DoduoPicBack
 ; attacks known at lvl 0
-db TAKE_DOWN
-db DRILL_PECK
-db TRI_ATTACK
-db FEATHERDANCE
+db PECK
+db GROWL
+db QUICK_ATTACK
+db FURY_ATTACK
 db 0 ; growth rate
 ; learnset
 	tmlearn 4,8

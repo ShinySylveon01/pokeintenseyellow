@@ -13,9 +13,9 @@ dw SeelPicFront
 dw SeelPicBack
 ; attacks known at lvl 0
 db AURORA_BEAM
-db BUBBLEBEAM
-db TAKE_DOWN
+db WATER_GUN
 db REST
+db 0
 db 0 ; growth rate
 ; learnset
 	tmlearn 7,8
