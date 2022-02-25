@@ -12,10 +12,10 @@ INCBIN "pic/ymon/exeggcute.pic",0,1 ; 77, sprite dimensions
 dw ExeggcutePicFront
 dw ExeggcutePicBack
 ; attacks known at lvl 0
-db GIGA_DRAIN
+db STUN_SPORE
 db SLEEP_POWDER
-db PSYBEAM
-db EGG_BOMB
+db CONFUSION
+db BARRAGE
 db 5 ; growth rate
 ; learnset
 	tmlearn 6

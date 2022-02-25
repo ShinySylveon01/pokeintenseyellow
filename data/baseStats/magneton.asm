@@ -1,9 +1,9 @@
 db DEX_MAGNETON ; pokedex id
-db 50 ; base hp
-db 60 ; base attack
-db 95 ; base defense
+db 70 ; base hp
+db 70 ; base attack
+db 115 ; base defense
 db 70 ; base speed
-db 120 ; base special
+db 130 ; base special
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 60 ; catch rate
@@ -15,7 +15,7 @@ dw MagnetonPicBack
 db ELECTRO_BALL
 db THUNDER_WAVE
 db TRI_ATTACK
-db DOUBLE_TEAM
+db SIGNAL_BEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 0

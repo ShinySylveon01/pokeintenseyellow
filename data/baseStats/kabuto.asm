@@ -1,6 +1,6 @@
 db DEX_KABUTO ; pokedex id
-db 40 ; base hp
-db 85 ; base attack
+db 58 ; base hp
+db 89 ; base attack
 db 90 ; base defense
 db 55 ; base speed
 db 50 ; base special
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/kabuto.pic",0,1 ; 55, sprite dimensions
 dw KabutoPicFront
 dw KabutoPicBack
 ; attacks known at lvl 0
-db OCTAZOOKA
-db ICE_BEAM
-db SLASH
-db GIGA_DRAIN
+db WATER_GUN
+db ABSORB
+db SAND_ATTACK
+db CONFUSE_RAY
 db 0 ; growth rate
 ; learnset
 	tmlearn 8

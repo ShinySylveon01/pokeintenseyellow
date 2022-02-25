@@ -13,9 +13,9 @@ dw StaryuPicFront
 dw StaryuPicBack
 ; attacks known at lvl 0
 db RECOVER
-db OCTAZOOKA
-db ICE_BEAM
-db THUNDERBOLT
+db CONFUSE_RAY
+db BUBBLEBEAM
+db SWIFT
 db 5 ; growth rate
 ; learnset
 	tmlearn 0

@@ -12,10 +12,10 @@ INCBIN "pic/ymon/ponyta.pic",0,1 ; 66, sprite dimensions
 dw PonytaPicFront
 dw PonytaPicBack
 ; attacks known at lvl 0
-db EMBER
-db DOUBLE_KICK
 db STOMP
-db HYPNOSIS
+db DOUBLE_KICK
+db GROWL
+db EMBER
 db 0 ; growth rate
 ; learnset
 	tmlearn 7,8

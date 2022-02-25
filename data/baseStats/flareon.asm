@@ -15,7 +15,7 @@ dw FlareonPicBack
 db FIRE_BLAST
 db SHADOW_BALL
 db BODY_SLAM
-db SOLARBEAM
+db DIG
 db 0 ; growth rate
 ; learnset
 	tmlearn 8

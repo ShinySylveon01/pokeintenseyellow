@@ -9,7 +9,7 @@ Route7Object:
 	warp 5, 13, 0, PATH_ENTRANCE_ROUTE_7
 
 	db 1 ; signs
-	sign 3, 13, 1 ; Route7Text1
+	sign  7, 15, 1 ; Route7Text1
 
 	db 0 ; objects
 

@@ -3,7 +3,7 @@ db 75 ; base hp
 db 95 ; base attack
 db 67 ; base defense
 db 93 ; base speed
-db 100 ; base special
+db 125 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
 db 45 ; catch rate
@@ -13,8 +13,8 @@ dw MagmarPicFront
 dw MagmarPicBack
 ; attacks known at lvl 0
 db FIRE_BLAST
-db SOLARBEAM
-db THUNDERBOLT
+db SUBMISSION
+db THUNDERPUNCH
 db PSYCHIC_M
 db 0 ; growth rate
 ; learnset

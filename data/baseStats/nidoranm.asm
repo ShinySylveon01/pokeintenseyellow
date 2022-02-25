@@ -13,9 +13,9 @@ dw NidoranMPicFront
 dw NidoranMPicBack
 ; attacks known at lvl 0
 db HORN_ATTACK
-db POISON_FANG
-db DOUBLE_KICK
-db TOXIC
+db LEER
+db 0
+db 0
 db 3 ; growth rate
 ; learnset
 	tmlearn 6,7,8

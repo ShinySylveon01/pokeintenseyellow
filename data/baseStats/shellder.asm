@@ -12,8 +12,8 @@ INCBIN "pic/ymon/shellder.pic",0,1 ; 55, sprite dimensions
 dw ShellderPicFront
 dw ShellderPicBack
 ; attacks known at lvl 0
-db TRI_ATTACK
-db SURF
+db TACKLE
+db WATER_GUN
 db ICICLE_SPEAR
 db SUPERSONIC
 db 5 ; growth rate

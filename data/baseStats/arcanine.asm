@@ -12,7 +12,7 @@ INCBIN "pic/ymon/arcanine.pic",0,1 ; 77, sprite dimensions
 dw ArcaninePicFront
 dw ArcaninePicBack
 ; attacks known at lvl 0
-db FIRE_BLAST
+db FLAME_WHEEL
 db EXTREMESPEED
 db DIG
 db DOUBLE_TEAM

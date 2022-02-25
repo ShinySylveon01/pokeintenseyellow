@@ -12,10 +12,10 @@ INCBIN "pic/ymon/zubat.pic",0,1 ; 55, sprite dimensions
 dw ZubatPicFront
 dw ZubatPicBack
 ; attacks known at lvl 0
-db WING_ATTACK
+db ABSORB
 db BITE
-db CONFUSE_RAY
-db HYPNOSIS
+db SUPERSONIC
+db LEECH_LIFE
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,4

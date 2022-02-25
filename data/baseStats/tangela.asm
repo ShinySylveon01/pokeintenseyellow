@@ -1,9 +1,9 @@
 db DEX_TANGELA ; pokedex id
-db 65 ; base hp
-db 55 ; base attack
-db 115 ; base defense
+db 100 ; base hp
+db 100 ; base attack
+db 125 ; base defense
 db 60 ; base speed
-db 100 ; base special
+db 110 ; base special
 db GRASS ; species type 1
 db GRASS ; species type 2
 db 45 ; catch rate

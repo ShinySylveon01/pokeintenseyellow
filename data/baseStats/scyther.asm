@@ -1,9 +1,9 @@
 db DEX_SCYTHER ; pokedex id
-db 70 ; base hp
-db 111 ; base attack
+db 80 ; base hp
+db 125 ; base attack
 db 80 ; base defense
 db 105 ; base speed
-db 79 ; base special
+db 80 ; base special
 db BUG ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/ymon/scyther.pic",0,1 ; 77, sprite dimensions
 dw ScytherPicFront
 dw ScytherPicBack
 ; attacks known at lvl 0
-db SWORDS_DANCE
-db FURY_CUTTER
-db WING_ATTACK
-db SLASH
+db QUICK_ATTACK
+db LEER
+db 0
+db 0
 db 0 ; growth rate
 ; learnset
 	tmlearn 3

@@ -15,7 +15,7 @@ dw DewgongPicBack
 db BLIZZARD
 db SURF
 db BODY_SLAM
-db HORN_DRILL
+db SIGNAL_BEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 7,8

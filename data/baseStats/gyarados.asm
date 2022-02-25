@@ -12,10 +12,10 @@ INCBIN "pic/ymon/gyarados.pic",0,1 ; 77, sprite dimensions
 dw GyaradosPicFront
 dw GyaradosPicBack
 ; attacks known at lvl 0
-db BLIZZARD
-db THUNDERBOLT
+db ICE_BEAM
 db SURF
 db BODY_SLAM
+db THUNDERBOLT
 db 5 ; growth rate
 ; learnset
 	tmlearn 8

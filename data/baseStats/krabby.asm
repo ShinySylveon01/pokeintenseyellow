@@ -12,7 +12,7 @@ INCBIN "pic/ymon/krabby.pic",0,1 ; 55, sprite dimensions
 dw KrabbyPicFront
 dw KrabbyPicBack
 ; attacks known at lvl 0
-db BUBBLEBEAM
+db WATER_GUN
 db VICEGRIP
 db 0
 db 0

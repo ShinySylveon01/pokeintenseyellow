@@ -12,10 +12,10 @@ INCBIN "pic/ymon/pinsir.pic",0,1 ; 77, sprite dimensions
 dw PinsirPicFront
 dw PinsirPicBack
 ; attacks known at lvl 0
+db VICEGRIP
+db BIND
+db HARDEN
 db SEISMIC_TOSS
-db FURY_CUTTER
-db BODY_SLAM
-db GUILLOTINE
 db 5 ; growth rate
 ; learnset
 	tmlearn 3,8

@@ -1,7 +1,7 @@
 db DEX_PARASECT ; pokedex id
-db 69 ; base hp
-db 111 ; base attack
-db 85 ; base defense
+db 60 ; base hp
+db 130 ; base attack
+db 80 ; base defense
 db 70 ; base speed
 db 80 ; base special
 db BUG ; species type 1

@@ -1,9 +1,9 @@
 db DEX_BEEDRILL ; pokedex id
 db 65 ; base hp
-db 80 ; base attack
-db 40 ; base defense
-db 75 ; base speed
-db 45 ; base special
+db 90 ; base attack
+db 89 ; base defense
+db 112 ; base speed
+db 55 ; base special
 db BUG ; species type 1
 db POISON ; species type 2
 db 45 ; catch rate
@@ -13,7 +13,7 @@ dw BeedrillPicFront
 dw BeedrillPicBack
 ; attacks known at lvl 0
 db FURY_ATTACK
-db TWINEEDLE
+db STRING_SHOT
 db POISON_STING
 db FOCUS_ENERGY
 db 0 ; growth rate

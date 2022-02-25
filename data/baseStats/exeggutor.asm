@@ -13,7 +13,7 @@ dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
 db PSYCHIC_M
-db GIGA_DRAIN
+db SEED_BOMB
 db EGG_BOMB
 db SLEEP_POWDER
 db 5 ; growth rate

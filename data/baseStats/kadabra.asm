@@ -12,10 +12,10 @@ INCBIN "pic/ymon/kadabra.pic",0,1 ; 66, sprite dimensions
 dw KadabraPicFront
 dw KadabraPicBack
 ; attacks known at lvl 0
-db PSYBEAM
 db RECOVER
-db THUNDER_WAVE
+db KINESIS
 db SEISMIC_TOSS
+db CONFUSION
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,8
