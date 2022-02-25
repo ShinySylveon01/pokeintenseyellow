@@ -15,7 +15,7 @@ dw MagnetonPicBack
 db ELECTRO_BALL
 db THUNDER_WAVE
 db TRI_ATTACK
-db DOUBLE_TEAM
+db SIGNAL_BEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 0

@@ -13,7 +13,7 @@ dw MoltresPicFront
 dw MoltresPicBack
 ; attacks known at lvl 0
 db FIRE_BLAST
-db SOLARBEAM
+db TOXIC
 db SKY_ATTACK
 db DOUBLE_TEAM
 db 5 ; growth rate

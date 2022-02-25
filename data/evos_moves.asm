@@ -322,8 +322,8 @@ ExeggcuteEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 25, GIGA_DRAIN
-	db 28, GIGA_DRAIN
+	db 25, SEED_BOMB
+	db 28, SEED_BOMB
 	db 32, SLEEP_POWDER
 	db 37, SLEEP_POWDER
 	db 42, PSYBEAM
@@ -392,8 +392,8 @@ RhyhornEvosMoves:
 ; Learnset
 	db 20, BODY_SLAM
 	db 23, BODY_SLAM
-	db 26, DIG
-	db 29, DIG
+	db 26, BULLDOZE
+	db 29, BULLDOZE
 	db 32, ROCK_THROW
 	db 35, ROCK_THROW
 	db 0
@@ -414,8 +414,14 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, FLAMETHROWER
-	db 40, FIRE_BLAST
+	db 30, FIRE_BLAST
+	db 33, FIRE_BLAST
+	db 36, EXTREMESPEED
+	db 38, EXTREMESPEED
+	db 40, DIG
+	db 42, DIG
+	db 44, DOUBLE_TEAM
+	db 47, DOUBLE_TEAM
 	db 0
 
 MewEvosMoves:
@@ -433,10 +439,12 @@ GyaradosEvosMoves:
 	db 0
 ; Learnset
 	db 34, BLIZZARD
-	db 37, BLIZZARD
-	db 40, HYDRO_PUMP
-	db 43, HYDRO_PUMP
-	db 47, HYDRO_PUMP
+	db 36, HYDRO_PUMP
+	db 38, HYDRO_PUMP
+	db 40, BODY_SLAM
+	db 42, BODY_SLAM
+	db 44, THUNDERBOLT
+	db 46, THUNDERBOLT
 	db 0
 
 ShellderEvosMoves:
@@ -765,8 +773,8 @@ MagmarEvosMoves:
 	db 39, FIRE_BLAST
 	db 43, SUBMISSION
 	db 48, SUBMISSION
-	db 52, THUNDERBOLT
-	db 55, THUNDERBOLT
+	db 52, THUNDERPUNCH
+	db 55, THUNDERPUNCH
 	db 0
 
 MissingNo34EvosMoves:
@@ -847,7 +855,8 @@ DiglettEvosMoves:
 ; Learnset
 	db 10, FURY_SWIPES
 	db 14, HEADBUTT
-	db 24, ROCK_SLIDE
+	db 22, BULLDOZE
+	db 25, ROCK_SLIDE
 	db 31, SLASH
 	db 40, DOUBLE_TEAM
 	db 0
@@ -977,7 +986,7 @@ MoltresEvosMoves:
 	db 0
 ; Learnset
 	db 51, FIRE_BLAST
-	db 55, SOLARBEAM
+	db 55, TOXIC
 	db 60, SKY_ATTACK
 	db 0
 
@@ -1055,8 +1064,8 @@ VulpixEvosMoves:
 	db 10, CONFUSE_RAY
 	db 13, FLAME_WHEEL
 	db 17, SWIFT
-	db 21, DIG
-	db 24, FLAMETHROWER
+	db 24, DIG
+	db 27, FLAMETHROWER
 	db 0
 
 NinetalesEvosMoves:
@@ -1185,6 +1194,7 @@ SandshrewEvosMoves:
 	db 11, POISON_STING
 	db 15, SWIFT
 	db 18, SWIFT
+	db 21, BULLDOZE
 	db 0
 
 SandslashEvosMoves:
@@ -1262,8 +1272,8 @@ FlareonEvosMoves:
 	db 40, SHADOW_BALL
 	db 42, BODY_SLAM
 	db 44, BODY_SLAM
-	db 48, SOLARBEAM
-	db 54, SOLARBEAM
+	db 48, DIG
+	db 54, DIG
 	db 0
 
 JolteonEvosMoves:
@@ -1276,8 +1286,8 @@ JolteonEvosMoves:
 	db 40, THUNDER_WAVE
 	db 42, DOUBLE_KICK
 	db 44, DOUBLE_KICK
-	db 48, PIN_MISSILE
-	db 54, PIN_MISSILE
+	db 48, SIGNAL_BEAM
+	db 54, SIGNAL_BEAM
 	db 0
 
 VaporeonEvosMoves:
@@ -1323,10 +1333,10 @@ EkansEvosMoves:
 	db EV_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
+	db 10, WRAP
 	db 12, WRAP
-	db 14, WRAP
-	db 18, GLARE
-	db 22, ACID
+	db 15, GLARE
+	db 18, ACID
 	db 25, BITE
 	db 0
 
@@ -1435,8 +1445,8 @@ VenomothEvosMoves:
 ; Learnset
 	db 24, PSYCHIC_M
 	db 27, PSYCHIC_M
-	db 30, SOLARBEAM
-	db 38, SOLARBEAM
+	db 30, GIGA_DRAIN
+	db 38, GIGA_DRAIN
 	db 43, SLEEP_POWDER
 	db 50, SLEEP_POWDER
 	db 0
@@ -1449,7 +1459,7 @@ DewgongEvosMoves:
 	db 35, BLIZZARD
 	db 44, SURF
 	db 50, BODY_SLAM
-	db 56, HORN_DRILL
+	db 56, SIGNAL_BEAM
 	db 0
 
 MissingNo79EvosMoves:
@@ -1751,7 +1761,7 @@ BulbasaurEvosMoves:
 	db 16, SYNTHESIS
 	db 20, GROWTH
 	db 24, SLEEP_POWDER
-	db 28, SOLARBEAM
+	db 28, SEED_BOMB
 	db 0
 
 VenusaurEvosMoves:
@@ -1762,8 +1772,8 @@ VenusaurEvosMoves:
 	db 13, SLEEP_POWDER
 	db 22, BODY_SLAM
 	db 30, BODY_SLAM
-	db 43, RAZOR_LEAF
-	db 55, RAZOR_LEAF
+	db 43, SEED_BOMB
+	db 55, SEED_BOMB
 	db 65, SLUDGE_BOMB
 	db 0
 

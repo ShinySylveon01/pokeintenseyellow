@@ -13,9 +13,9 @@ dw VenomothPicFront
 dw VenomothPicBack
 ; attacks known at lvl 0
 db PSYCHIC_M
-db SOLARBEAM
+db GIGA_DRAIN
 db SLEEP_POWDER
-db SLUDGE_BOMB
+db SIGNAL_BEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,4,6

@@ -15,7 +15,7 @@ dw JolteonPicBack
 db THUNDERBOLT
 db THUNDER_WAVE
 db DOUBLE_KICK
-db PIN_MISSILE
+db SIGNAL_BEAM
 db 0 ; growth rate
 ; learnset
 	tmlearn 8
