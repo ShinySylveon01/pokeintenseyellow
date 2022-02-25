@@ -5,8 +5,9 @@
 
 SpecialTrainerMoves:
 	db BUG_CATCHER,$f
-	db 2,2,TACKLE
-	db 2,3,STRING_SHOT
+	db 1,1,TACKLE
+	db 1,2,HARDEN
+	db 1,3,STRING_SHOT
 	db 0
 
 	db YOUNGSTER,$e
@@ -14,12 +15,12 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK,$1
-	db 1,1,FLAMETHROWER
+	db 1,1,FLAME_WHEEL
 	db 1,2,CONFUSE_RAY
 	db 1,3,QUICK_ATTACK
-	db 1,4,DIG
-	db 2,1,OCTAZOOKA
-	db 2,2,ICE_BEAM
+	db 1,4,FIRE_SPIN
+	db 2,1,WATER_GUN
+	db 2,2,
 	db 2,3,SLASH
 	db 2,4,GIGA_DRAIN
 	db 3,1,BUBBLEBEAM
@@ -41,30 +42,30 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY,$1
-	db 1,1,SURF
-	db 1,2,ICE_BEAM
-	db 1,3,SHADOW_BALL
-	db 1,4,BODY_SLAM
-	db 2,1,DOUBLE_EDGE
-	db 2,2,SURF
-	db 2,3,ICE_BEAM
-	db 2,4,EXPLOSION
-	db 3,1,THUNDERBOLT
-	db 3,2,SURF
-	db 3,3,ICE_BEAM
-	db 3,4,SING
+	db 1,1,TACKLE
+	db 1,2,SAND_ATTACK
+	db 1,3,QUICK_ATTACK
+	db 1,4,DIG
+	db 2,1,FURY_SWIPES
+	db 2,2,SCREECH
+	db 2,3,PAY_DAY
+	db 2,4,SLASH
+	db 3,1,TACKLE
+	db 3,2,TAIL_WHIP
+	db 3,3,QUICK_ATTACK
+	db 3,4,HYPER_FANG
 	db 4,1,ICE_BEAM
-	db 4,2,SURF
-	db 4,3,BODY_SLAM
-	db 4,4,HORN_DRILL
-	db 5,1,SURF
-	db 5,2,ICE_BEAM
-	db 5,3,TAKE_DOWN
-	db 5,4,HORN_DRILL
-	db 6,1,RECOVER
-	db 6,2,THUNDERBOLT
-	db 6,3,ICE_BEAM
-	db 6,4,SURF
+	db 4,2,THUNDERBOLT
+	db 4,3,PSYCHIC_M
+	db 4,4,SING
+	db 5,1,ICE_BEAM
+	db 5,2,THUNDERBOLT
+	db 5,3,PSYCHIC_M
+	db 5,4,SING
+	db 6,1,LICK
+	db 6,2,STOMP
+	db 6,3,SUPERSONIC
+	db 6,4,WRAP
 	db 0
 
 	db LT_SURGE,$1
