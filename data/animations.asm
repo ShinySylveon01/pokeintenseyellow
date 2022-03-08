@@ -1255,7 +1255,6 @@ BulldozeAnim:
 	
 SeedBombAnim:
 	db $46,$48,$1B
-	db $55,$4D,$1C
 	db $44,$78,$42
 	db $FF
 

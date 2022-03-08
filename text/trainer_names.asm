@@ -33,7 +33,7 @@ TrainerNames:
 	db "COOLTRAINER♀@"
 	db "CHUCK@"
 	db "BROCK@"
-	db "CARLIE@"
+	db "MISTY@"
 	db "LT.SURGE@"
 	db "ERIKA@"
 	db "KOGA@"

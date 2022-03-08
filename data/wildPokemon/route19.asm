@@ -2,10 +2,10 @@ Route19Mons:
 	db $00
 
 	db $05
-	db 63,TENTACOOL
+	db 63,STARMIE
 	db 63,GYARADOS
-	db 63,SEEL
-	db 63,HORSEA
+	db 63,VAPOREON
+	db 63,SEADRA
 	db 63,GOLDEEN
 	db 63,POLIWHIRL
 	db 63,DEWGONG

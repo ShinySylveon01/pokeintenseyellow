@@ -167,26 +167,26 @@ const_value = 1
 
 NUM_ATTACKS EQU const_value + -1
 
-	const STRUGGLE
-	const OCTAZOOKA
-	const SLUDGE_BOMB
-	const VOLT_TACKLE
-	const SYNTHESIS
-	const SHADOW_BALL
-	const FLAME_WHEEL
-	const DRAGONBREATH
-	const FURY_CUTTER
-	const GIGA_DRAIN
-	const SIGNAL_BEAM
-	const AEROBLAST
-	const EXTREMESPEED
-	const ICICLE_SPEAR
-	const POISON_FANG
-	const ELECTRO_BALL
-	const SCARY_FACE
-	const FEATHERDANCE
-	const BULLDOZE
-	const SEED_BOMB
+	const STRUGGLE     ; a5
+	const OCTAZOOKA    ; a6
+	const SLUDGE_BOMB  ; a7
+	const VOLT_TACKLE  ; a8
+	const SYNTHESIS    ; a9
+	const SHADOW_BALL  ; aa
+	const FLAME_WHEEL  ; ab
+	const DRAGONBREATH ; ac
+	const FURY_CUTTER  ; ad
+	const GIGA_DRAIN   ; ae
+	const SIGNAL_BEAM  ; af
+	const AEROBLAST    ; b0
+	const EXTREMESPEED ; b1
+	const ICICLE_SPEAR ; b2
+	const POISON_FANG  ; b3
+	const ELECTRO_BALL ; b4
+	const SCARY_FACE   ; b5
+	const FEATHERDANCE ; b6
+	const BULLDOZE     ; b7
+	const SEED_BOMB    ; b8
 
 	; Moves do double duty as animation identifiers.
 

@@ -7,7 +7,7 @@ PowerPlantMons:
 	db 60,ELECTRODE
 	db 60,RAICHU
 	db 60,JOLTEON
-	db 60,MAGNETON
+	db 60,PORYGON
 	db 60,WEEZING
 	db 60,MUK
 	db $00
