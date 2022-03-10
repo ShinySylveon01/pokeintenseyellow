@@ -14,11 +14,11 @@ ViridianCityObject:
 	sign 21, 29, 11 ; ViridianCityText10
 	sign 30, 19, 12 ; MartSignText
 	sign 24, 25, 13 ; PokeCenterSignText
-	sign 27, 7, 14 ; ViridianCityText13
+	sign 21,  7, 14 ; ViridianCityText13
 
 	db 8 ; objects
 	object SPRITE_BUG_CATCHER, 13, 20, WALK, 0, 1 ; person
-	object SPRITE_GAMBLER, 30, 8, STAY, NONE, 2 ; person
+	object SPRITE_GAMBLER, 24,  8, STAY, NONE, 2 ; person
 	object SPRITE_BUG_CATCHER, 30, 25, WALK, 0, 3 ; person
 	object SPRITE_GIRL, 17, 9, STAY, RIGHT, 4 ; person
 	object SPRITE_LYING_OLD_MAN, 18, 9, STAY, NONE, 5 ; person
