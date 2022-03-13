@@ -441,8 +441,8 @@ GyaradosEvosMoves:
 	db 34, BLIZZARD
 	db 36, HYDRO_PUMP
 	db 38, HYDRO_PUMP
-	db 40, BODY_SLAM
-	db 42, BODY_SLAM
+	db 40, DRAGON_PULSE
+	db 42, DRAGON_PULSE
 	db 44, THUNDERBOLT
 	db 46, THUNDERBOLT
 	db 0
@@ -922,7 +922,7 @@ DragoniteEvosMoves:
 	db 20, THUNDER_WAVE
 	db 35, WRAP
 	db 45, BLIZZARD
-	db 60, RAZOR_WIND
+	db 60, DRAGON_PULSE
 	db 0
 
 MissingNo43EvosMoves:
@@ -1948,7 +1948,7 @@ AerodactylEvosMoves:
 	db 33, ROCK_SLIDE
 	db 38, EARTHQUAKE
 	db 45, AEROBLAST
-	db 54, RAZOR_WIND
+	db 54, DRAGON_PULSE
 	db 0
 
 MissingNoACEvosMoves:
@@ -2042,8 +2042,8 @@ CharizardEvosMoves:
 	db 15, FLAMETHROWER
 	db 24, SLASH
 	db 36, SLASH
-	db 46, BODY_SLAM
-	db 55, BODY_SLAM
+	db 46, DRAGON_PULSE
+	db 55, DRAGON_PULSE
 	db 0
 
 MissingNoB5EvosMoves:
@@ -2088,8 +2088,8 @@ GloomEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
-	db 15, PETAL_DANCE
-	db 17, PETAL_DANCE
+	db 15, SEED_BOMB
+	db 17, SEED_BOMB
 	db 19, SLEEP_POWDER
 	db 28, SLEEP_POWDER
 	db 38, STUN_SPORE
@@ -2102,7 +2102,8 @@ VileplumeEvosMoves:
 ; Learnset
 	db 15, SLEEP_POWDER
 	db 17, STUN_SPORE
-	db 19, SOLARBEAM
+	db 19, SEED_BOMB
+	db 21, SLUDGE_BOMB
 	db 0
 
 BellsproutEvosMoves:

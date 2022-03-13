@@ -18,7 +18,7 @@ CeruleanCashierText::
 
 ; Vermilion
 VermilionCashierText::
-	TX_MART GREAT_BALL,HYPER_POTION,ICE_HEAL,AWAKENING,PARLYZ_HEAL,SUPER_REPEL
+	TX_MART GREAT_BALL,HYPER_POTION,REVIVE,AWAKENING,PARLYZ_HEAL,SUPER_REPEL
 
 ; Lavender
 LavenderCashierText::
@@ -30,7 +30,7 @@ CeladonMart2Clerk1Text::
 
 ; Celadon Dept. Store 2F (2)
 CeladonMart2Clerk2Text::
-	TX_MART TM_32,TM_33,TM_02,TM_07,TM_37,TM_01,TM_05,TM_09,TM_17
+	TX_MART TM_32,TM_33,TM_02,TM_04,TM_37,TM_01,TM_05,TM_09,TM_17
 
 ; Celadon Dept. Store 4F
 CeladonMart4ClerkText::

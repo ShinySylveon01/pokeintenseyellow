@@ -2,7 +2,7 @@ Route4Mons:
 	db $14
 	db 15,VOLTORB
 	db 15,MAGNEMITE
-	db 15,PIKACHU
+	db 15,ABRA
 	db 15,ODDISH
 	db 15,BELLSPROUT
 	db 15,SEEL

@@ -183,6 +183,8 @@ AttackAnimationPointers:
 	dw FeatherDanceAnim
 	dw BulldozeAnim
 	dw SeedBombAnim
+	dw DragonPulseAnim
+	dw MagicalLeafAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1257,6 +1259,22 @@ SeedBombAnim:
 	db $46,$48,$1B
 	db $44,$78,$42
 	db $FF
+	
+DragonPulseAnim:
+	db $03,$3D,$2E
+	db SE_DELAY_ANIMATION_10, $FF
+	db SE_DELAY_ANIMATION_10, $FF
+	db SE_WAVY_SCREEN, $5C
+	db $FF
+	
+MagicalLeafAnim:
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+	db SE_LEAVES_FALLING, $4A
+	db $41,$80,$44
+	db $01,$0C,$16
+	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+	
 
 BallTossAnim:
 	db $03,$FF,$06

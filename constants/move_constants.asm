@@ -187,6 +187,8 @@ NUM_ATTACKS EQU const_value + -1
 	const FEATHERDANCE ; b6
 	const BULLDOZE     ; b7
 	const SEED_BOMB    ; b8
+	const DRAGON_PULSE ; b9
+	const MAGICAL_LEAF ; ba
 
 	; Moves do double duty as animation identifiers.
 

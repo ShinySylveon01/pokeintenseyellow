@@ -183,3 +183,5 @@ MoveNames::
 	db "FEATHERDANCE@"
 	db "BULLDOZE@"
 	db "SEED BOMB@"
+	db "DRAGON PULSE@"
+	db "MAGICAL LEAF@"

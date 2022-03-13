@@ -2,7 +2,7 @@ TechnicalMachines:
 	db MEGA_PUNCH
 	db RAZOR_WIND
 	db SWORDS_DANCE
-	db WHIRLWIND
+	db MAGICAL_LEAF
 	db MEGA_KICK
 	db SLUDGE_BOMB
 	db HORN_DRILL

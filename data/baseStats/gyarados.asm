@@ -14,7 +14,7 @@ dw GyaradosPicBack
 ; attacks known at lvl 0
 db ICE_BEAM
 db SURF
-db BODY_SLAM
+db DRAGON_PULSE
 db THUNDERBOLT
 db 5 ; growth rate
 ; learnset

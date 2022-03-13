@@ -18,7 +18,7 @@ db SUPERSONIC
 db LEECH_LIFE
 db 0 ; growth rate
 ; learnset
-	tmlearn 2,4
+	tmlearn 2
 	tmlearn 9,10
 	tmlearn 20,21
 	tmlearn 31,32

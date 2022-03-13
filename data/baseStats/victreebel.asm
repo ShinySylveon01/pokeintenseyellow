@@ -15,10 +15,10 @@ dw VictreebelPicBack
 db WRAP
 db STUN_SPORE
 db SLEEP_POWDER
-db RAZOR_LEAF
+db MAGICAL_LEAF
 db 3 ; growth rate
 ; learnset
-	tmlearn 3,6,8
+	tmlearn 3,4,6,8
 	tmlearn 9,10,15
 	tmlearn 20,21,22
 	tmlearn 31,32

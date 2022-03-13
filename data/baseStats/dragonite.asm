@@ -15,7 +15,7 @@ dw DragonitePicBack
 db THUNDER_WAVE
 db WRAP
 db BLIZZARD
-db RAZOR_WIND
+db DRAGON_PULSE
 db 5 ; growth rate
 ; learnset
 	tmlearn 2,7,8

@@ -18,7 +18,7 @@ db THUNDER_WAVE
 db DOUBLE_TEAM
 db 5 ; growth rate
 ; learnset
-	tmlearn 2,4
+	tmlearn 2
 	tmlearn 9,10,15
 	tmlearn 20,24
 	tmlearn 25,31,32

@@ -14,7 +14,7 @@ dw CharizardPicBack
 ; attacks known at lvl 0
 db FLAMETHROWER
 db SLASH
-db BODY_SLAM
+db DRAGON_PULSE
 db EARTHQUAKE
 db 3 ; growth rate
 ; learnset

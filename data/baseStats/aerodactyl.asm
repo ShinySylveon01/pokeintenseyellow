@@ -15,7 +15,7 @@ dw AerodactylPicBack
 db ROCK_SLIDE
 db EARTHQUAKE
 db AEROBLAST
-db RAZOR_WIND
+db DRAGON_PULSE
 db 5 ; growth rate
 ; learnset
 	tmlearn 2,4
