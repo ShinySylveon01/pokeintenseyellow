@@ -3,7 +3,7 @@ SaffronCityObject:
 
 	db 8 ; warps
 	warp 7, 5, 0, COPYCATS_HOUSE_1F
-	warp 26, 3, 0, FIGHTING_DOJO
+	warp 12, 21, 0, FIGHTING_DOJO
 	warp 34, 3, 0, SAFFRON_GYM
 	warp 13, 11, 0, SAFFRON_HOUSE_1
 	warp 25, 11, 0, SAFFRON_MART
@@ -13,11 +13,11 @@ SaffronCityObject:
 
 	db 10 ; signs
 	sign 17, 5, 16 ; SaffronCityText16
-	sign 27, 5, 17 ; SaffronCityText17
-	sign 35, 5, 18 ; SaffronCityText18
+	sign  5, 21, 17 ; SaffronCityText17
+	sign 37,  5, 18 ; SaffronCityText18
 	sign 26, 11, 19 ; MartSignText
 	sign 39, 19, 20 ; SaffronCityText20
-	sign 5, 21, 21 ; SaffronCityText21
+	sign 27,  5, 21 ; SaffronCityText21
 	sign 15, 21, 22 ; SaffronCityText22
 	sign 10, 29, 23 ; PokeCenterSignText
 	sign 27, 29, 24 ; SaffronCityText24
@@ -41,7 +41,7 @@ SaffronCityObject:
 
 	; warp-to
 	warp_to 7, 5, SAFFRON_CITY_WIDTH ; COPYCATS_HOUSE_1F
-	warp_to 26, 3, SAFFRON_CITY_WIDTH ; FIGHTING_DOJO
+	warp_to 12, 21, SAFFRON_CITY_WIDTH ; FIGHTING_DOJO
 	warp_to 34, 3, SAFFRON_CITY_WIDTH ; SAFFRON_GYM
 	warp_to 13, 11, SAFFRON_CITY_WIDTH ; SAFFRON_PIDGEY_HOUSE
 	warp_to 25, 11, SAFFRON_CITY_WIDTH ; SAFFRON_MART

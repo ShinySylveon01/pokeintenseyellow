@@ -12,7 +12,7 @@ INCBIN "pic/ymon/primeape.pic",0,1 ; 77, sprite dimensions
 dw PrimeapePicFront
 dw PrimeapePicBack
 ; attacks known at lvl 0
-db SUBMISSION
+db CLOSE_COMBAT
 db BODY_SLAM
 db DIG
 db ROCK_SLIDE

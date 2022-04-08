@@ -4,6 +4,11 @@ _BlaineBattleText::
 	para "I am AGATHA! I"
 	line "am the LEADER of"
 	cont "CINNABAR GYM!"
+	
+	para "I have decided to"
+	line "retire as member"
+	cont "of the ELITE"
+	cont "FOUR!"
 
 	para "My ghost #MON"
 	line "will eat the soul"
@@ -21,24 +26,23 @@ _BlaineEndBattleText::
 	line "the VOLCANOBADGE!@@"
 
 _BlaineFireBlastText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "SHADOW BALL is a"
+	line "very strong GHOST"
+	cont "type attack!"
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "Use wisely!"
 	done
 
 _BlaineBadgeText::
 	text "Hah!"
 
 	para "The VOLCANOBADGE"
-	line "heightens the"
+	line "boosts up the"
 	cont "SPECIAL abilities"
 	cont "of your #MON!"
 
-	para "Here, you can"
-	line "have this too!"
+	para "Here, take this"
+	line "special gift!"
 	done
 
 _ReceivedTM38Text::
@@ -49,15 +53,15 @@ _ReceivedTM38Text::
 
 _TM38ExplanationText::
 	db $0
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "TM30 contains"
+	line "SHADOW BALL!"
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "Make sure you have"
+	line "a ghost-type in"
+	cont "your party!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "GENGAR would be"
+	line "the best bet!"
 	done
 
 _TM38NoRoomText::

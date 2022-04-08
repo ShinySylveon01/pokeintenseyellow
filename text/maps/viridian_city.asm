@@ -103,30 +103,24 @@ _ViridianCityText_19191::
 	done
 
 _ViridianCityText_191ca::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "You must be a"
+	line "beginner?"
 
-	para "I had this dream"
-	line "about a DROWZEE"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
-
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "Maybe this can be"
+	line "of good use to"
+	cont "help fight ROCK"
+	cont "type #MON!"
 	prompt
 
 _ReceivedTM42Text::
 	text $52, " received"
-	line "TM42!@@"
+	line "TM04!@@"
 
 _TM42Explanation::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "TM04 contains"
+	line "MAGICAL LEAF!"
+	
+	para "It never misses!"
 	done
 
 _TM42NoRoomText::

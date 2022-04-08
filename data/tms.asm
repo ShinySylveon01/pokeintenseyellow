@@ -28,7 +28,7 @@ TechnicalMachines:
 	db FISSURE
 	db DIG
 	db PSYCHIC_M
-	db TELEPORT
+	db SHADOW_BALL
 	db MIMIC
 	db DOUBLE_TEAM
 	db REFLECT

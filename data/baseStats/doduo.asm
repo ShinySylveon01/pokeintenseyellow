@@ -18,7 +18,7 @@ db QUICK_ATTACK
 db FURY_ATTACK
 db 0 ; growth rate
 ; learnset
-	tmlearn 4,8
+	tmlearn 8
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32

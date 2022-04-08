@@ -90,7 +90,7 @@ Func_f194a:
 	jr nz, .asm_f1972
 	ld hl, ViridianCityText_f1979
 	call PrintText
-	lb bc, TM_42, 1
+	lb bc, TM_04, 1
 	call GiveItem
 	jr nc, .asm_f196b
 	ld hl, ViridianCityText_f197e

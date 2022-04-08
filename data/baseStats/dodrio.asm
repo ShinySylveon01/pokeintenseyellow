@@ -18,7 +18,7 @@ db BODY_SLAM
 db HYPER_BEAM
 db 0 ; growth rate
 ; learnset
-	tmlearn 4,8
+	tmlearn 8
 	tmlearn 9,10,15
 	tmlearn 20
 	tmlearn 31,32

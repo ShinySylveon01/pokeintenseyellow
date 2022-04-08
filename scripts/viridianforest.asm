@@ -60,7 +60,7 @@ ViridianForestTrainerHeader2:
 
 ViridianForestTrainerHeader3:
 	dbEventFlagBit EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_3
-	db ($0 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_3
 	dw ViridianForestBattleText4 ; TextBeforeBattle
 	dw ViridianForestAfterBattleText4 ; TextAfterBattle

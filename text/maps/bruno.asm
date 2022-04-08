@@ -1,34 +1,33 @@
 _BrunoBeforeBattleText::
-	text "I am CHUCK of"
-	line "the ELITE FOUR!"
+	text "I am CHUCK of the"
+	line "ELITE FOUR!"
 
-	para "Through rigorous"
-	line "training, people"
-	cont "and #MON can"
-	cont "become stronger!"
+	para "I have come to"
+	line "replace BRUNO as"
+	cont "he is training in"
+	cont "JOHTO!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "I've trained my"
+	line "#MON so much"
+	cont "so I can beat"
+	cont "everybody!"
 
-	para $52, "!"
-
-	para "We will grind you"
-	line "down with our"
-	cont "superior power!"
-
-	para "Hoo hah!"
+	para "Ready to taste the"
+	line "kick!"
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "You beat"
+	line "me!"
 	prompt
 
 _BrunoAfterBattleText::
-	text "My job is done!"
-	line "Go face your next"
-	cont "challenge!"
+	text "Good luck against"
+	line "BLAINE!"
+	
+	para "Be sure to have"
+	line "plenty of BURN"
+	cont "heals!"
 	done
 
 _BrunoDontRunAwayText::

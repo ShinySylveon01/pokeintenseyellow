@@ -25,7 +25,7 @@ CeruleanCityObject:
 	object SPRITE_BLUE, 20, 2, STAY, DOWN, 1 ; person
 	object SPRITE_ROCKET, 30, 8, STAY, NONE, 2, OPP_ROCKET, 5
 	object SPRITE_BLACK_HAIR_BOY_1, 26, 26, STAY, DOWN, 3 ; person
-	object SPRITE_BLACK_HAIR_BOY_2, 18, 29, WALK, 1, 4 ; person
+	object SPRITE_BLACK_HAIR_BOY_2, 30, 21, WALK, 1, 4 ; person
 	object SPRITE_BLACK_HAIR_BOY_2,  8, 21, WALK, 2, 5 ; person
 	object SPRITE_OFFICER_JENNY, 28, 12, STAY, DOWN, 6 ; person
 	object SPRITE_LASS, 13, 21, STAY, LEFT, 7 ; person
