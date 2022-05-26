@@ -1281,7 +1281,6 @@ SacredFireAnim:
 	db $46,$FF,$20
 	db $46,$52,$0C
 	db $46,$FF,$0D
-	db $46,$FF,$0E
 	db $FF
 
 BallTossAnim:

@@ -985,7 +985,7 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, SACRED_FIRE
+	db 51, FIRE_BLAST
 	db 55, TOXIC
 	db 60, SKY_ATTACK
 	db 0
