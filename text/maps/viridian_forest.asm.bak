@@ -43,7 +43,7 @@ _ViridianFrstAfterBattleText2::
 
 _ViridianForestBattleText3::
 	text "Who's a little"
-	line "sweetie-belle!"
+	line "sweetie-belle!?"
 	done
 
 _ViridianForestEndBattleText3::
