@@ -77,7 +77,7 @@ Route16TextPointers:
 Route16TrainerHeaders:
 Route16TrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_ROUTE_16_TRAINER_0
-	db ($3 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_16_TRAINER_0
 	dw Route16BattleText1 ; TextBeforeBattle
 	dw Route16AfterBattleText1 ; TextAfterBattle
@@ -86,7 +86,7 @@ Route16TrainerHeader0:
 
 Route16TrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_ROUTE_16_TRAINER_1
-	db ($2 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_16_TRAINER_1
 	dw Route16BattleText2 ; TextBeforeBattle
 	dw Route16AfterBattleText2 ; TextAfterBattle
@@ -95,7 +95,7 @@ Route16TrainerHeader1:
 
 Route16TrainerHeader2:
 	dbEventFlagBit EVENT_BEAT_ROUTE_16_TRAINER_2
-	db ($2 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_16_TRAINER_2
 	dw Route16BattleText3 ; TextBeforeBattle
 	dw Route16AfterBattleText3 ; TextAfterBattle
@@ -104,7 +104,7 @@ Route16TrainerHeader2:
 
 Route16TrainerHeader3:
 	dbEventFlagBit EVENT_BEAT_ROUTE_16_TRAINER_3
-	db ($2 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_16_TRAINER_3
 	dw Route16BattleText4 ; TextBeforeBattle
 	dw Route16AfterBattleText4 ; TextAfterBattle
@@ -113,7 +113,7 @@ Route16TrainerHeader3:
 
 Route16TrainerHeader4:
 	dbEventFlagBit EVENT_BEAT_ROUTE_16_TRAINER_4
-	db ($2 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_16_TRAINER_4
 	dw Route16BattleText5 ; TextBeforeBattle
 	dw Route16AfterBattleText5 ; TextAfterBattle

@@ -22,7 +22,7 @@ Route18TextPointers:
 Route18TrainerHeaders:
 Route18TrainerHeader0:
 	dbEventFlagBit EVENT_BEAT_ROUTE_18_TRAINER_0
-	db ($3 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_18_TRAINER_0
 	dw Route18BattleText1 ; TextBeforeBattle
 	dw Route18AfterBattleText1 ; TextAfterBattle
@@ -31,7 +31,7 @@ Route18TrainerHeader0:
 
 Route18TrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_ROUTE_18_TRAINER_1
-	db ($3 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_18_TRAINER_1
 	dw Route18BattleText2 ; TextBeforeBattle
 	dw Route18AfterBattleText2 ; TextAfterBattle

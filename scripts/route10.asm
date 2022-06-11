@@ -36,7 +36,7 @@ Route10TrainerHeader0:
 
 Route10TrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_1
-	db ($3 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_1
 	dw Route10BattleText2 ; TextBeforeBattle
 	dw Route10AfterBattleText2 ; TextAfterBattle
@@ -54,7 +54,7 @@ Route10TrainerHeader2:
 
 Route10TrainerHeader3:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_3
-	db ($3 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_3
 	dw Route10BattleText4 ; TextBeforeBattle
 	dw Route10AfterBattleText4 ; TextAfterBattle
@@ -63,7 +63,7 @@ Route10TrainerHeader3:
 
 Route10TrainerHeader4:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_4
-	db ($2 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_4
 	dw Route10BattleText5 ; TextBeforeBattle
 	dw Route10AfterBattleText5 ; TextAfterBattle
@@ -72,7 +72,7 @@ Route10TrainerHeader4:
 
 Route10TrainerHeader5:
 	dbEventFlagBit EVENT_BEAT_ROUTE_10_TRAINER_5
-	db ($2 << 4) ; trainer's view range
+	db ($4 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_ROUTE_10_TRAINER_5
 	dw Route10BattleText6 ; TextBeforeBattle
 	dw Route10AfterBattleText6 ; TextAfterBattle
