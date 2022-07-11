@@ -113,7 +113,7 @@ VermilionGymTrainerHeader0:
 
 VermilionGymTrainerHeader1:
 	dbEventFlagBit EVENT_BEAT_VERMILION_GYM_TRAINER_1
-	db ($2 << 4) ; trainer's view range
+	db ($3 << 4) ; trainer's view range
 	dwEventFlagAddress EVENT_BEAT_VERMILION_GYM_TRAINER_1
 	dw VermilionGymBattleText2 ; TextBeforeBattle
 	dw VermilionGymAfterBattleText2 ; TextAfterBattle
