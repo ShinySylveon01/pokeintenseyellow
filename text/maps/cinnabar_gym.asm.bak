@@ -217,7 +217,7 @@ _CinnabarGymText_1::
 
 	para "You have to take a"
 	line "quiz if you want"
-	cont "to see AGATHA."
+	cont "to see BLAINE."
 
 	para "You don't have to"
 	line "fight us if you"
