@@ -170,7 +170,7 @@ SpecialTrainerMoves:
 	db 5,2,BODY_SLAM
 	db 5,3,DIG
 	db 5,4,DOUBLE_TEAM
-	db 6,1,SACRED_FIRE
+	db 6,1,FIRE_BLAST
 	db 6,2,SKY_ATTACK
 	db 6,3,DOUBLE_EDGE
 	db 6,4,DOUBLE_TEAM

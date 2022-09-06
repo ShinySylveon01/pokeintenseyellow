@@ -1,17 +1,35 @@
 _VictoryRoad1BattleText1::
-	text "I wonder if you"
-	line "are good enough"
-	cont "for me!"
+	text "RIDLEY: Oh I have"
+	line "heard about you!"
+	cont "You are <PLAYER>!"
+	
+	para "Allow me to"
+	line "introduce myself!"
+	cont "I am RIDLEY!"
+	
+	para "I believe that"
+	line "being a vegan is"
+	cont "the key of being"
+	cont "a good #MON"
+	cont "trainer!"
+	
+	para "Well, are you"
+	line "ready to lose my"
+	cont "friend!"
 	done
 
 _VictoryRoad1EndBattleText1::
-	text "I"
-	line "lost out!"
+	text "Ah"
+	line "damn it!"
 	prompt
 
 _VictoryRoad1AfterBattleText1::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "You have proven"
+	line "yourself to be a"
+	cont "good trainer!"
+	
+	para "Good luck against"
+	line "the ELITE FOUR!"
 	done
 
 _VictoryRoad1BattleText2::

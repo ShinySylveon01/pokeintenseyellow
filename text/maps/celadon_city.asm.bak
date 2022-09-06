@@ -1,10 +1,10 @@
 _CeladonCityText1::
-	text "Time ago, a battle"
-	line "between RIDLEY"
-	cont "and ERIKA took"
-	cont "place at the GYM."
+	text "I got my KOFFING"
+	line "from my friend!"
 
-	para "She barely won."
+	para "We get along now,"
+	line "because I was"
+	cont "very nice to it!"
 	done
 
 _CeladonCityText2::

@@ -90,15 +90,15 @@ CreditsText_Version:
 	db -6, "YELLOW SUPREME"
 	next   "    STAFF@"
 CreditsText_Tajiri:
-	db -6, "SAILORMOONFAN01@"
+	db -6, "SATOSHI TAJIRI@"
 CreditsText_Oota:
-	db -6, "EeVeeEe1999@"
+	db -6, "TAKENORI OOTA@"
 CreditsText_Morimoto:
-	db -7, "GALBERT@"
+	db -7, "SHIGEKI MORIMOTO@"
 CreditsText_Watanabe:
-	db -7, "CRYSTAL@"
+	db -7, "TETSUYA WATANABE@"
 CreditsText_Masuda:
-	db -6, "CHAMBER@"
+	db -6, "JUNICHI MASUDA@"
 CreditsText_Nishino:
 	db -5, "KOHJI NISHINO@"
 CreditsText_Sugimori:

@@ -38,12 +38,13 @@ _PalletTownText2::
 	done
 
 _PalletTownText3::
-	text "SAILORMOONFAN01"
-	line "made this hack!"
+	text "Technology is"
+	line "incredible!"
 
-	para "Enjoy this game"
-	line "with a new taste"
-	cont "in difficulty!"
+	para "You can now store"
+	line "and recall items"
+	cont "and #MON as"
+	cont "data via PC!"
 	done
 
 _PalletTownText4::
