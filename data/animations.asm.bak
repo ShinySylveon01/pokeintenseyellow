@@ -1173,7 +1173,7 @@ ShadowBallAnim:
 	db SE_DARK_SCREEN_FLASH, $FF
 	db $06,$9C,$2E
 	db SE_RESET_SCREEN_PALETTE, $FF
-	db SE_FLASH_SCREEN_LONG, $54, $FF
+	db SE_FLASH_SCREEN_LONG, $FF
 	db $FF
 
 FlameWheelAnim:
