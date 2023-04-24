@@ -33,3 +33,28 @@ _Route4Text6::
 	line "MT.MOON -"
 	cont "CERULEAN CITY"
 	done
+	
+_Route4BattleText2::							;NEW
+	text "Now just wait"
+	line "one moment!"
+	
+	para "So, you want"
+	line "to access my"
+	cont "training zone?"
+	
+	para "You'll need to"
+	line "defeat me!"
+	done
+
+_Route4EndBattleText2::
+	text "Dang,"
+	line "you are tough!"
+	prompt
+
+_Route4AfterBattleText2::
+	text "One day, I want"
+	line "to teach HITMON-"
+	cont "CHAN the three"
+	cont "elemental punch-"
+	cont "es!"
+	done
