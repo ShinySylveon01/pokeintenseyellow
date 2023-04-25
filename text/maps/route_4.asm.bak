@@ -60,19 +60,26 @@ _Route4AfterBattleText2::
 	done
 
 _Route4BattleText3::							;NEW
-	text "A new trainer"
-	line "walking down!"
+	text "Now just wait"
+	line "one moment!"
 	
-	para "You'll have to"
-	line "beat me first!"
+	para "So, you want"
+	line "to access my"
+	cont "training zone?"
+	
+	para "You'll need to"
+	line "defeat me!"
 	done
 
 _Route4EndBattleText3::
-	text "Shoot!"
+	text "Dang,"
+	line "you are tough!"
 	prompt
 
 _Route4AfterBattleText3::
-	text "I will train"
-	line "harder to beat"
-	cont "you!"
+	text "One day, I want"
+	line "to teach HITMON-"
+	cont "CHAN the three"
+	cont "elemental punch-"
+	cont "es!"
 	done

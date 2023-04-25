@@ -11,11 +11,12 @@ Route4Object:
 	sign 17, 7, 5 ; Route4Text5
 	sign 27, 7, 6 ; Route4Text6
 
-	db 4 ; objects
+	db 5 ; objects
 	object SPRITE_LASS,  7, 12, WALK, 0, 1 ; person
 	object SPRITE_LASS, 56,  2, STAY, DOWN, 2, OPP_LASS, 4
 	object SPRITE_BALL, 49,  9, STAY, NONE, 3, TM_25
-	object SPRITE_BUG_CATCHER, 52,  5, STAY, UP, 8, OPP_BUG_CATCHER, 16
+	object SPRITE_BUG_CATCHER, 52,  5, STAY, UP, 7, OPP_BUG_CATCHER, 16
+	object SPRITE_BUG_CATCHER, 52,  5, STAY, UP, 8, OPP_YOUNGSTER, 15
 
 	; warp-to
 	warp_to 11, 5, ROUTE_4_WIDTH ; MT_MOON_POKECENTER
