@@ -76,3 +76,33 @@ _Route4AfterBattleText3::
 	line "harder to beat"
 	cont "you!"
 	done
+	
+_Route4BattleText4::							;NEW
+	text "Hello, I want"
+	line "to battle you!"
+	done
+
+_Route4EndBattleText4::
+	text "Darn!"
+	prompt
+
+_Route4AfterBattleText4::
+	text "Next time will"
+	line "be different!"
+	done
+	
+_Route4BattleText5::							;NEW
+	text "Dang, I got"
+	line "stung by one"
+	cont "of my #MON!"
+	done
+
+_Route4EndBattleText5::
+	text "Yowch!"
+	prompt
+
+_Route4AfterBattleText5::
+	text "Looks like I"
+	line "should buy some"
+	cont "ANTIDOTE!"
+	done
