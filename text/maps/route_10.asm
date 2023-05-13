@@ -107,3 +107,19 @@ _Route10Text7::
 _Route10Text10::
 	text "POWER PLANT"
 	done
+
+_Route10BattleText11::
+	text "Well, a new"
+	line "challenger!"
+	done
+
+_Route10EndBattleText11::
+	text "What!"
+	prompt
+
+_Route10AfterBattleText11::
+	text "I will train"
+	line "harder to beat"
+	cont "you!"
+	done
+	

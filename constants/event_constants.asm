@@ -1111,7 +1111,7 @@ const_value = 0
 	const EVENT_BEAT_ROUTE_10_TRAINER_3              ; 454, (D7D1, bit 4)
 	const EVENT_BEAT_ROUTE_10_TRAINER_4              ; 455, (D7D1, bit 5)
 	const EVENT_BEAT_ROUTE_10_TRAINER_5              ; 456, (D7D1, bit 6)
-	const EVENT_457                                  ; 457, (D7D1, bit 7)
+	const EVENT_BEAT_ROUTE_10_TRAINER_6              ; 457, (D7D1, bit 7)
 	const EVENT_458                                  ; 458, (D7D2, bit 0)
 	const EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_1         ; 459, (D7D2, bit 1)
 	const EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_2         ; 45A, (D7D2, bit 2)
