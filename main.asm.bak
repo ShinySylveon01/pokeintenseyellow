@@ -1999,7 +1999,6 @@ RedFishingTilesSide:  INCBIN "gfx/red_fishing_tile_side.2bpp"
 RedFishingRodTiles:   INCBIN "gfx/red_fishingrod_tiles.2bpp"
 
 SSAnneSmokePuffTile:  INCBIN "gfx/ss_anne_smoke_puff.2bpp"
-SSAnneSmokePuffTileEnd:
 
 SECTION "bank2f", ROMX
 
