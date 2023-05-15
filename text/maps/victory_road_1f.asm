@@ -47,3 +47,24 @@ _VictoryRoad1AfterBattleText2::
 	text "I concede, you're"
 	line "better than me!"
 	done
+	
+_VictoryRoad1BattleText3::
+	text "Well I caught some"
+	line "#MON in this"
+	cont "area!"
+	
+	para "Let's see how"
+	line "good they are!"
+	done
+
+_VictoryRoad1EndBattleText3::
+	text "I"
+	line "had a chance..."
+	prompt
+
+_VictoryRoad1AfterBattleText3::
+	text "Next time will"
+	line "be better in"
+	cont "terms of"
+	cont "fairness!"
+	done
