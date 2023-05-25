@@ -63,8 +63,7 @@ _VictoryRoad1EndBattleText3::
 	prompt
 
 _VictoryRoad1AfterBattleText3::
-	text "Next time will"
-	line "be better in"
-	cont "terms of"
-	cont "fairness!"
+	text "Next time will be"
+	line "better in terms"
+	cont "of fairness!"
 	done
