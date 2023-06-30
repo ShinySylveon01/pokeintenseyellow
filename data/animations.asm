@@ -269,6 +269,7 @@ IcePunchAnim:
 	db $FF
 
 ThunderPunchAnim:
+VoltTackleAnim:
 	db $06,$08,$02
 	db SE_DARK_SCREEN_PALETTE, $FF
 	db $46,$FF,$2B
@@ -298,6 +299,7 @@ SwordsDanceAnim:
 	db $FF
 
 CutAnim:
+FuryCutterAnim:
 	db SE_DARK_SCREEN_FLASH, $0E
 	db $04,$FF,$16
 	db $FF
@@ -371,6 +373,7 @@ HornAttackAnim:
 	db $FF
 
 FuryAttackAnim:
+IcicleSpearAnim:
 	db $02,$1E,$46
 	db $02,$FF,$46
 	db $FF
@@ -444,6 +447,7 @@ PinMissileAnim:
 	db $FF
 
 LeerAnim:
+ScaryFaceAnim:
 	db SE_DARK_SCREEN_PALETTE, $48
 	db SE_DARK_SCREEN_FLASH, $2A
 	db SE_DARK_SCREEN_FLASH, $2A
@@ -543,12 +547,14 @@ BubbleBeamAnim:
 	db $FF
 
 AuroraBeamAnim:
+SignalBeamAnim:
 	db $03,$3D,$2E
 	db SE_DELAY_ANIMATION_10, $FF
 	db SE_DELAY_ANIMATION_10, $FF
 	db $FF
 
 HyperBeamAnim:
+AeroBlastAnim:
 	db SE_DARK_SCREEN_PALETTE, $48
 	db SE_SPIRAL_BALLS_INWARD, $FF
 	db $02,$3E,$2E
@@ -612,6 +618,7 @@ AbsorbAnim:
 	db $FF
 
 MegaDrainAnim:
+GigaDrainAnim:
 	db SE_LIGHT_SCREEN_PALETTE, $47
 	db SE_DARK_SCREEN_FLASH, $FF
 	db $06,$FF,$21
@@ -655,6 +662,7 @@ SleepPowderAnim:
 	db $FF
 
 PedalDanceAnim:
+FeatherDanceAnim:
 	db SE_LIGHT_SCREEN_PALETTE, $4F
 	db SE_PETALS_FALLING, $FF
 	db SE_RESET_SCREEN_PALETTE, $FF
@@ -665,6 +673,7 @@ StringShotAnim:
 	db $FF
 
 DragonRageAnim:
+DragonBreathAnim:
 	db $46,$51,$1F
 	db $46,$FF,$0C
 	db $46,$FF,$0D
@@ -672,6 +681,7 @@ DragonRageAnim:
 	db $FF
 
 FireSpinAnim:
+FlameWheelAnim:
 	db $46,$52,$0C
 	db $46,$FF,$0D
 	db $46,$FF,$0E
@@ -711,6 +721,7 @@ EarthquakeAnim:
 	db $FF
 
 FissureAnim:
+BulldozeAnim:
 	db SE_DARK_SCREEN_FLASH, $59
 	db SE_SHAKE_SCREEN, $FF
 	db SE_DARK_SCREEN_FLASH, $59
@@ -753,6 +764,7 @@ AgilityAnim:
 	db $FF
 
 QuickAttackAnim:
+ExtremeSpeedAnim:
 	db SE_SLIDE_MON_OFF, $61
 	db $46,$FF,$04
 	db SE_SHOW_MON_PIC, $FF
@@ -879,6 +891,7 @@ ReflectAnim:
 	db $FF
 
 FocusEnergyAnim:
+SynthesisAnim:
 	db SE_SPIRAL_BALLS_INWARD, $73
 	db $FF
 
@@ -914,12 +927,14 @@ LickAnim:
 	db $FF
 
 SmogAnim:
+SludgeBombAnim:
 	db SE_DARKEN_MON_PALETTE, $48
 	db $46,$7A,$19
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 SludgeAnim:
+OctazookaAnim:
 	db $46,$7B,$13
 	db $46,$7B,$14
 	db $FF
@@ -1008,6 +1023,7 @@ PoisonGasAnim:
 	db $FF
 
 BarrageAnim:
+ElectroBallAnim:
 	db $43,$8B,$41
 	db $05,$FF,$55
 	db $FF
@@ -1106,6 +1122,7 @@ RockSlideAnim:
 	db $FF
 
 HyperFangAnim:
+PoisonFangAnim:
 	db $06,$9D,$02
 	db $FF
 
@@ -1145,28 +1162,6 @@ SubstituteAnim:
 	db SE_SUBSTITUTE_MON, $FF
 	db $FF
 	
-OctazookaAnim:
-	db $46,$7B,$13
-	db $46,$7B,$14
-	db $FF
-	
-SludgeBombAnim:
-	db SE_DARKEN_MON_PALETTE, $48
-	db $46,$7A,$19
-	db SE_RESET_SCREEN_PALETTE, $FF
-	db $FF
-
-VoltTackleAnim:
-	db $06,$08,$02
-	db SE_DARK_SCREEN_PALETTE, $FF
-	db $46,$FF,$2B
-	db SE_RESET_SCREEN_PALETTE, $FF
-	db $FF
-	
-SynthesisAnim:
-	db SE_SPIRAL_BALLS_INWARD, $73
-	db $FF
-	
 ShadowBallAnim:
 	db SE_DARK_SCREEN_PALETTE, $48
 	db $06,$FF,$43
@@ -1174,89 +1169,6 @@ ShadowBallAnim:
 	db $06,$9C,$2E
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db SE_FLASH_SCREEN_LONG, $54, $FF
-	db $FF
-
-FlameWheelAnim:
-	db $46,$52,$0C
-	db $46,$FF,$0D
-	db $46,$FF,$0E
-	db $FF
-	
-DragonBreathAnim:
-	db $46,$51,$1F
-	db $46,$FF,$0C
-	db $46,$FF,$0D
-	db $46,$FF,$0E
-	db $FF
-
-FuryCutterAnim:
-	db SE_DARK_SCREEN_FLASH, $0E
-	db $04,$FF,$16
-	db $FF
-
-GigaDrainAnim:
-	db SE_LIGHT_SCREEN_PALETTE, $47
-	db SE_DARK_SCREEN_FLASH, $FF
-	db $06,$FF,$21
-	db $06,$FF,$22
-	db SE_DARK_SCREEN_FLASH, $FF
-	db SE_RESET_SCREEN_PALETTE, $FF
-	db $FF
-
-SignalBeamAnim:
-	db $03,$3D,$2E
-	db SE_DELAY_ANIMATION_10, $FF
-	db SE_DELAY_ANIMATION_10, $FF
-	db $FF
-
-AeroBlastAnim:
-	db SE_DARK_SCREEN_PALETTE, $48
-	db SE_SPIRAL_BALLS_INWARD, $FF
-	db $02,$3E,$2E
-	db SE_DARK_SCREEN_FLASH, $FF
-	db SE_DARK_SCREEN_FLASH, $FF
-	db $46,$04,$04
-	db SE_RESET_SCREEN_PALETTE, $FF
-	db $FF
-
-ExtremeSpeedAnim:
-	db SE_SLIDE_MON_OFF, $61
-	db $46,$FF,$04
-	db SE_SHOW_MON_PIC, $FF
-	db $FF
-
-IcicleSpearAnim:
-	db $02,$1E,$46
-	db $02,$FF,$46
-	db $FF
-
-PoisonFangAnim:
-	db $06,$9D,$02
-	db $FF
-
-ElectroBallAnim:
-	db $43,$8B,$41
-	db $05,$FF,$55
-	db $FF
-
-ScaryFaceAnim:
-	db SE_DARK_SCREEN_PALETTE, $48
-	db SE_DARK_SCREEN_FLASH, $2A
-	db SE_DARK_SCREEN_FLASH, $2A
-	db SE_RESET_SCREEN_PALETTE, $FF
-	db $FF
-
-FeatherDanceAnim:
-	db SE_LIGHT_SCREEN_PALETTE, $4F
-	db SE_PETALS_FALLING, $FF
-	db SE_RESET_SCREEN_PALETTE, $FF
-	db $FF
-	
-BulldozeAnim:
-	db SE_DARK_SCREEN_FLASH, $59
-	db SE_SHAKE_SCREEN, $FF
-	db SE_DARK_SCREEN_FLASH, $59
-	db SE_SHAKE_SCREEN, $FF
 	db $FF
 	
 SeedBombAnim:
