@@ -89,6 +89,3 @@ LoadSmokeTile:
 	ld de, SSAnneSmokePuffTile
 	lb bc, BANK(SSAnneSmokePuffTile), (SSAnneSmokePuffTileEnd - SSAnneSmokePuffTile) / $10
 	jp CopyVideoData
-	
-SSAnneSmokePuffTile:  INCBIN "gfx/ss_anne_smoke_puff.2bpp"
-SSAnneSmokePuffTileEnd:
