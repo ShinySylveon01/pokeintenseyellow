@@ -20,7 +20,7 @@ SpecialTrainerMoves:
 	db 1,3,QUICK_ATTACK
 	db 1,4,FIRE_SPIN
 	db 2,1,WATER_GUN
-	db 2,2,
+	db 2,2,CONFUSE_RAY
 	db 2,3,SLASH
 	db 2,4,GIGA_DRAIN
 	db 3,1,BUBBLEBEAM

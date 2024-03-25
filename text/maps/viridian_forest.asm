@@ -42,8 +42,9 @@ _ViridianFrstAfterBattleText2::
 	done
 
 _ViridianForestBattleText3::
-	text "Who's a little"
-	line "sweetie-belle!"
+	text "I just caught"
+	line "some new #MON"
+	cont "around here!"
 	done
 
 _ViridianForestEndBattleText3::

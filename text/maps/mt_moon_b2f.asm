@@ -2,22 +2,51 @@ _MtMoonJessieJamesText1::
 	text "Stop right there!@@"
 
 _MtMoonJessieJamesText2::
-	text "That fossil is"
-	line "TEAM ROCKET's!"
+	text "Prepare for"
+	line "trouble!"
 
-	para "Surrender now, or "
+	para "Make it double!"
+	
+	para "To protect the"
+	line "world from"
+	cont "devastation!"
+	
+	para "To unite all"
+	line "people within our"
+	cont "nation!"
+	
+	para "To denounce the"
+	line "evils of truth"
+	cont "and love!"
+	
+	para "To extend our"
+	line "reach to the"
+	cont "stars above!"
+	
+	para "JESSIE!"
+	
+	para "JAMES!"
+	
+	para "TEAM ROCKET, blast"
+	line "off at the speed"
+	cont "of light!"
+	
+	para "Surrender now, or"
 	line "prepare to fight!"
+	
+	para "Meowth! That's"
+	line "right!"
 	done
 
 _MtMoonJessieJamesText3::
-	text "A"
-	line "brat beat us?"
+	text "We"
+	line "lost to a twerp?"
 	prompt
 
 _MtMoonJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!@@"
+	text "Looks like TEAM"
+	line "ROCKET blasts off"
+	cont "from the cave!@@"
 
 _MtMoon3Text_49f24::
 	text "You want the"
