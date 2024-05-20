@@ -10,7 +10,7 @@ AgathaObject:
 	db 0 ; signs
 
 	db 1 ; objects
-	object SPRITE_MR_MASTERBALL, 5, 2, STAY, DOWN, 1, OPP_BLAINE, 1
+	object SPRITE_BLAINE, 5, 2, STAY, DOWN, 1, OPP_BLAINE, 1
 
 	; warp-to
 	warp_to 4, 11, AGATHAS_ROOM_WIDTH ; BRUNOS_ROOM

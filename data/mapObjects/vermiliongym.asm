@@ -8,7 +8,7 @@ VermilionGymObject:
 	db 0 ; signs
 
 	db 5 ; objects
-	object SPRITE_ROCKER, 5, 1, STAY, DOWN, 1, OPP_LT_SURGE, 1
+	object SPRITE_SURGE, 5, 1, STAY, DOWN, 1, OPP_LT_SURGE, 1
 	object SPRITE_GENTLEMAN,  6,  6, STAY, LEFT, 2, OPP_GENTLEMAN, 3
 	object SPRITE_BLACK_HAIR_BOY_2,  2, 16, STAY, RIGHT, 3, OPP_ROCKER, 1
 	object SPRITE_SAILOR,  3,  6, STAY, RIGHT, 4, OPP_SAILOR, 8

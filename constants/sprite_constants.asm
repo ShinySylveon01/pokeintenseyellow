@@ -75,6 +75,12 @@ const_value = 1
 	const SPRITE_BRUNO                     ; $3a
 	const SPRITE_LORELEI                   ; $3b
 	const SPRITE_SEEL                      ; $3c
+	const SPRITE_BROCK
+	const SPRITE_MISTY
+	const SPRITE_SURGE
+	const SPRITE_KOGA
+	const SPRITE_SABRINA
+	const SPRITE_BLAINE
 	const SPRITE_PIKACHU                   ; $3d
 	const SPRITE_OFFICER_JENNY             ; $3e
 	const SPRITE_SANDSHREW                 ; $3f

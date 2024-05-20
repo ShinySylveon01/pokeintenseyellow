@@ -221,6 +221,14 @@ SeelSprite:           INCBIN "gfx/sprites/seel.2bpp"
 INCLUDE "engine/battle/moveEffects/substitute_effect.asm"
 INCLUDE "engine/menu/pc.asm"
 
+SECTION "NPC Sprites 3", ROMX
+
+BrockSprite:          INCBIN "gfx/sprites/brock.2bpp"
+MistySprite:          INCBIN "gfx/sprites/misty.2bpp"
+SurgeSprite:          INCBIN "gfx/sprites/surge.2bpp"
+KogaSprite:           INCBIN "gfx/sprites/koga.2bpp"
+SabrinaSprite:        INCBIN "gfx/sprites/sabrina.2bpp"
+BlaineSprite:         INCBIN "gfx/sprites/blaine.2bpp"
 
 SECTION "bank06", ROMX
 

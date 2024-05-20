@@ -489,6 +489,36 @@ SpriteSheetPointerTable:
 	dw SeelSprite
 	db $c0 ; byte count
 	db BANK(SeelSprite)
+	
+	; SPRITE_BROCK
+	dw BrockSprite
+	db $c0 ; byte count
+	db BANK(BrockSprite)
+	
+	; SPRITE_MISTY
+	dw MistySprite
+	db $c0 ; byte count
+	db BANK(MistySprite)
+	
+	; SPRITE_SURGE
+	dw SurgeSprite
+	db $c0 ; byte count
+	db BANK(SurgeSprite)
+	
+	; SPRITE_KOGA
+	dw KogaSprite
+	db $c0 ; byte count
+	db BANK(KogaSprite)
+	
+	; SPRITE_SABRINA
+	dw SabrinaSprite
+	db $c0 ; byte count
+	db BANK(SabrinaSprite)
+	
+	; SPRITE_BLAINE
+	dw BlaineSprite
+	db $c0 ; byte count
+	db BANK(BlaineSprite)
 
 	; SPRITE_PIKACHU
 	dw PikachuSprite
