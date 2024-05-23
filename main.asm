@@ -230,6 +230,10 @@ KogaSprite:           INCBIN "gfx/sprites/koga.2bpp"
 SabrinaSprite:        INCBIN "gfx/sprites/sabrina.2bpp"
 BlaineSprite:         INCBIN "gfx/sprites/blaine.2bpp"
 
+SECTION "Gender Data", ROMX
+
+INCLUDE "engine/mon_gender.asm"
+
 SECTION "bank06", ROMX
 
 INCLUDE "data/mapHeaders/celadoncity.asm"

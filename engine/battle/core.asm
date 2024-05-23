@@ -1988,6 +1988,7 @@ DrawPlayerHUDAndHPBar:
 	coord hl, 10, 7
 	call CenterMonName
 	call PlaceString
+	call PrintPlayerMonGender
 	ld hl, wBattleMonSpecies
 	ld de, wLoadedMon
 	ld bc, wBattleMonDVs - wBattleMonSpecies
@@ -2043,10 +2044,30 @@ DrawEnemyHUDAndHPBar:
 	lb bc, 4, 12
 	call ClearScreenArea
 	callab PlaceEnemyHUDTiles
+	push hl
+	ld a, [wEnemyMonSpecies2]
+	ld [wd11e], a
+	ld hl, IndexToPokedex
+	ld b, BANK(IndexToPokedex)
+	call Bankswitch
+	ld a, [wd11e]
+	dec a
+	ld c, a
+	ld b, FLAG_TEST
+	ld hl, wPokedexOwned
+	predef FlagActionPredef
+	ld a, c
+	and a
+	jr z, .notOwned
+	coord hl, 1, 1 ; horizontal/vertical
+	ld [hl], $72 ; replace this with your Poké Ball icon or other character
+.notOwned
+	pop hl
 	ld de, wEnemyMonNick
 	coord hl, 1, 0
 	call CenterMonName
 	call PlaceString
+	call PrintEnemyMonGender
 	coord hl, 4, 1
 	push hl
 	inc hl
@@ -2159,6 +2180,35 @@ CenterMonName:
 	jr nz, .loop
 .done
 	pop de
+	ret
+	
+PrintPlayerMonGender:
+	ld a, [wBattleMonSpecies]
+	ld de, wBattleMonDVs
+	coord hl, 17, 8
+	jr PrintGenderCommon
+
+PrintEnemyMonGender:
+	ld a, [wEnemyMonSpecies]
+	ld de, wEnemyMonDVs
+	coord hl, 9, 1
+PrintGenderCommon:
+	ld [wGenderTemp], a
+	push hl
+	callba GetMonGender
+	ld a, [wGenderTemp]
+	and a
+	jr z, .genderless
+	dec a
+	ld a, "♂"
+	jr z, .ok
+	ld a, "♀"
+	jr .ok
+.genderless
+	ld a, " "
+.ok
+	pop hl
+	ld [hl], a
 	ret
 
 DisplayBattleMenu:
