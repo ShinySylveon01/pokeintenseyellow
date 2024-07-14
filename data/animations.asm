@@ -927,7 +927,6 @@ LickAnim:
 	db $FF
 
 SmogAnim:
-SludgeBombAnim:
 	db SE_DARKEN_MON_PALETTE, $48
 	db $46,$7A,$19
 	db SE_RESET_SCREEN_PALETTE, $FF
@@ -1160,6 +1159,11 @@ SubstituteAnim:
 	db SE_SLIDE_MON_OFF, $A3
 	db $08,$FF,$47
 	db SE_SUBSTITUTE_MON, $FF
+	db $FF
+	
+SludgeBombAnim:
+	db $44,$7B,$41
+	db $46,$7B,$14
 	db $FF
 	
 ShadowBallAnim:
