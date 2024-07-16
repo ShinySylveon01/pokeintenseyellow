@@ -1828,8 +1828,6 @@ Museum_GFX:        INCBIN "gfx/tilesets/museum.2bpp"
 ForestGate_Block:
 Gate_Block:
 Museum_Block:      INCBIN "gfx/blocksets/museum.bst"
-Forest_GFX:        INCBIN "gfx/tilesets/forest.2bpp"
-Forest_Block:      INCBIN "gfx/blocksets/forest.bst"
 Facility_GFX:      INCBIN "gfx/tilesets/facility.2bpp"
 Facility_Block:    INCBIN "gfx/blocksets/facility.bst"
 
@@ -1850,6 +1848,11 @@ Club_GFX:          INCBIN "gfx/tilesets/club.2bpp"
 Club_Block:        INCBIN "gfx/blocksets/club.bst"
 Underground_GFX:   INCBIN "gfx/tilesets/underground.2bpp"
 Underground_Block: INCBIN "gfx/blocksets/underground.bst"
+
+SECTION "Forest Bank", ROMX
+
+Forest_GFX:        INCBIN "gfx/tilesets/forest.2bpp"
+Forest_Block:      INCBIN "gfx/blocksets/forest.bst"
 
 
 SECTION "bank1C", ROMX
