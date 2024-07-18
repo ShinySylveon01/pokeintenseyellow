@@ -229,6 +229,7 @@ SurgeSprite:          INCBIN "gfx/sprites/surge.2bpp"
 KogaSprite:           INCBIN "gfx/sprites/koga.2bpp"
 SabrinaSprite:        INCBIN "gfx/sprites/sabrina.2bpp"
 BlaineSprite:         INCBIN "gfx/sprites/blaine.2bpp"
+BillSprite:           INCBIN "gfx/sprites/bill.2bpp"
 
 SECTION "Gender Data", ROMX
 

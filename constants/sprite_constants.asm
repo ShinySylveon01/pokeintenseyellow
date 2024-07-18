@@ -81,6 +81,7 @@ const_value = 1
 	const SPRITE_KOGA
 	const SPRITE_SABRINA
 	const SPRITE_BLAINE
+	const SPRITE_BILL
 	const SPRITE_PIKACHU                   ; $3d
 	const SPRITE_OFFICER_JENNY             ; $3e
 	const SPRITE_SANDSHREW                 ; $3f
