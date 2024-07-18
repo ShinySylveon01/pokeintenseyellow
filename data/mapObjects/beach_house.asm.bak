@@ -13,7 +13,7 @@ BeachHouseObjects:
 
 	db 2 ; objects
 	object SPRITE_FISHER, 2, 3, STAY, DOWN, 1 ; surfin' dude
-	object SPRITE_PIKACHU, 5, 3, WALK, $01, 2 ; pikachu
+	object $3d, 5, 3, WALK, $01, 2 ; pikachu
 
 	; warp-to
 	warp_to 2,7, BEACH_HOUSE_WIDTH
