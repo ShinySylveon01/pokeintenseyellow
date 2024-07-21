@@ -30,7 +30,7 @@ MapSpriteSets:
 	db $09 ; ROUTE_17
 	db $f7 ; ROUTE_18
 	db $0a ; ROUTE_19
-	db $f8 ; ROUTE_20
+	db $0a ; ROUTE_20
 	db $01 ; ROUTE_21
 	db $01 ; ROUTE_22
 	db $06 ; ROUTE_23
@@ -186,6 +186,7 @@ SpriteSets:
 	db SPRITE_SEEL
 	db SPRITE_SWIMMER
 	db SPRITE_BUG_CATCHER
+	db SPRITE_SWIMMER_F
 	db SPRITE_BALL
 	db SPRITE_OMANYTE
 
@@ -524,6 +525,11 @@ SpriteSheetPointerTable:
 	dw BillSprite
 	db $c0 ; byte count
 	db BANK(BillSprite)
+	
+	; SPRITE_SWIMMER_F
+	dw SwimmerFSprite
+	db $c0 ; byte count
+	db BANK(SwimmerFSprite)
 
 	; SPRITE_PIKACHU
 	dw PikachuSprite

@@ -345,11 +345,11 @@ GetSplitMapSpriteSetID:
 	ld hl, wXCoord
 	ld a, [hl]
 	cp a, $2b
-	ld a, $01
+	ld a, $0a
 	ret c
 	ld a, [hl]
 	cp a, $3e
-	ld a, $01
+	ld a, $0a
 	ret nc
 	ld a, [hl]
 	cp a, $37
@@ -359,9 +359,9 @@ GetSplitMapSpriteSetID:
 .next
 	ld a, [wYCoord]
 	cp b
-	ld a, $01
+	ld a, $0a
 	ret c
-	ld a, $01
+	ld a, $0a
 	ret
 
 INCLUDE "data/sprite_sets.asm"
