@@ -77,7 +77,7 @@ FuchsiaCityText19:
 	TX_ASM
 	ld hl, FuchsiaCityChanseyText
 	call PrintText
-	ld a, CHANSEY
+	ld a, GYARADOS
 	call DisplayPokedex
 	jp TextScriptEnd
 

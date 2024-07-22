@@ -33,7 +33,7 @@ FuchsiaCityObject:
 	object SPRITE_GAMBLER, 33, 18, WALK, 2, 2 ; person
 	object SPRITE_FISHER2, 30, 14, STAY, DOWN, 3 ; person
 	object SPRITE_BUG_CATCHER, 24, 8, STAY, UP, 4 ; person
-	object SPRITE_CHANSEY, 31, 5, STAY, DOWN, 5 ; person
+	object SPRITE_SEEL, 31, 5, STAY, DOWN, 5 ; person
 	object SPRITE_BALL, 25, 6, STAY, NONE, 6 ; person
 	object SPRITE_SLOWBRO, 12, 6, WALK, 2, 7 ; person
 	object SPRITE_SLOWBRO, 30, 12, WALK, 2, 8 ; person

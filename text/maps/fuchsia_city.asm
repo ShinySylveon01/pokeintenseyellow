@@ -62,10 +62,10 @@ _FuchsiaCityText18::
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: CHANSEY"
+	text "Name: GYARADOS"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "They are not seen"
+	line "that often."
 	prompt
 
 _FuchsiaCityVoltorbText::

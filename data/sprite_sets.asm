@@ -188,7 +188,6 @@ SpriteSets:
 	db SPRITE_BUG_CATCHER
 	db SPRITE_BALL
 	db SPRITE_OMANYTE
-	db SPRITE_CHANSEY
 
 SpriteSheetPointerTable:
 	; SPRITE_RED
