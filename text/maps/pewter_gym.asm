@@ -45,7 +45,7 @@ _TM34PreReceiveText::
 
 _ReceivedTM34Text::
 	text $52, " received"
-	line "TM34!@@"
+	line "TM48!@@"
 
 _TM34ExplanationText::
 	db $0
@@ -61,13 +61,12 @@ _TM34ExplanationText::
 	cont "pick the #MON"
 	cont "carefully!"
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "TM48 contains"
+	line "ROCK SLIDE!"
 
-	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	para "It may at times"
+	line "make the enemy"
+	cont "#MON flinch!"
 	done
 
 _TM34NoRoomText::

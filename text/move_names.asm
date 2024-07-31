@@ -186,3 +186,4 @@ MoveNames::
 	db "DRAGON PULSE@"
 	db "MAGICAL LEAF@"
 	db "SACRED FIRE@"
+	db "FREEZEBREATH@"

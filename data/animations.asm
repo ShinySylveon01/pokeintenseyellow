@@ -186,6 +186,7 @@ AttackAnimationPointers:
 	dw DragonPulseAnim
 	dw MagicalLeafAnim
 	dw SacredFireAnim
+	dw FreezeBreathAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1201,6 +1202,14 @@ SacredFireAnim:
 	db $46,$52,$0C
 	db $46,$FF,$0D
 	db $46,$FF,$0E
+	db $FF
+	
+FreezeBreathAnim:
+	db SE_LIGHT_SCREEN_PALETTE, $FF
+	db SE_WATER_DROPLETS_EVERYWHERE, $10
+	db $46,$1B,$28
+	db $10,$10,$2F
+	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 
 BallTossAnim:

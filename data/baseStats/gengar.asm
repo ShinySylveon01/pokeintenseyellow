@@ -15,7 +15,7 @@ dw GengarPicBack
 db HYPNOSIS
 db SHADOW_BALL
 db THUNDERBOLT
-db MEGA_DRAIN
+db FREEZEBREATH
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
