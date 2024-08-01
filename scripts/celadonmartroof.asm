@@ -117,7 +117,7 @@ CeladonMartRoofScript_GiveDrinkToGirl:
 	ld hl, CeladonMartRoofText_484f3
 	call PrintText
 	call RemoveItemByIDBank12
-	lb bc, TM_13, 1
+	lb bc, TM_34, 1
 	call GiveItem
 	jr nc, .bagFull
 	ld hl, CeladonMartRoofText_484f9

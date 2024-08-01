@@ -24,7 +24,7 @@ _CeladonMartRoofText_484fe::
 	para "@"
 	TX_RAM wcf4b
 	text " contains"
-	line "ICE BEAM!"
+	line "FREEZEBREATH!"
 
 	para "It can freeze the"
 	line "target sometimes!@@"
