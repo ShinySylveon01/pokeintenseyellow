@@ -19,10 +19,10 @@ db 0
 db 5 ; growth rate
 ; learnset
 	tmlearn 0
+	tmlearn 11,12
 	tmlearn 0
 	tmlearn 0
-	tmlearn 0
-	tmlearn 0
+	tmlearn 34
 	tmlearn 0
 	tmlearn 0
 db BANK(MagikarpPicFront)
