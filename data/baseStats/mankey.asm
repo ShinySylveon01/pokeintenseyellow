@@ -22,7 +22,7 @@ db 0 ; growth rate
 	tmlearn 9,10,16
 	tmlearn 17,18,19,20,24
 	tmlearn 25,28,31,32
-	tmlearn 34,35,39,40
+	tmlearn 35,39,40
 	tmlearn 44,48
 	tmlearn 50,54
 db BANK(MankeyPicFront)

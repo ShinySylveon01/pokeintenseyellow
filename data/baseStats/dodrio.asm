@@ -22,7 +22,7 @@ db 0 ; growth rate
 	tmlearn 9,10,15
 	tmlearn 20
 	tmlearn 31,32
-	tmlearn 33,34,40
+	tmlearn 33,40
 	tmlearn 43,44
 	tmlearn 49,50,52
 db BANK(DodrioPicFront)

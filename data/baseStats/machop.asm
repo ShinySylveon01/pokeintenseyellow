@@ -22,7 +22,7 @@ db 3 ; growth rate
 	tmlearn 9,10
 	tmlearn 17,18,19,20
 	tmlearn 26,27,28,31,32
-	tmlearn 34,35,38,40
+	tmlearn 35,38,40
 	tmlearn 44,48
 	tmlearn 50,54
 db BANK(MachopPicFront)

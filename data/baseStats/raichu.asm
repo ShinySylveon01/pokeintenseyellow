@@ -22,7 +22,7 @@ db 0 ; growth rate
 	tmlearn 9,10,15,16
 	tmlearn 17,19,20,24
 	tmlearn 25,31,32
-	tmlearn 33,34,39,40
+	tmlearn 33,39,40
 	tmlearn 44,45
 	tmlearn 50,55
 db BANK(RaichuPicFront)

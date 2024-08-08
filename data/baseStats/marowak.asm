@@ -22,7 +22,7 @@ db 0 ; growth rate
 	tmlearn 9,10,11,12,13,14,15
 	tmlearn 17,18,19,20
 	tmlearn 26,27,28,31,32
-	tmlearn 34,38,40
+	tmlearn 38,40
 	tmlearn 44
 	tmlearn 50,54
 db BANK(MarowakPicFront)

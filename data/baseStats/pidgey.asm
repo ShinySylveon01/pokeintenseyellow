@@ -22,7 +22,7 @@ db 3 ; growth rate
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32
-	tmlearn 33,34,39
+	tmlearn 33,39
 	tmlearn 43,44
 	tmlearn 50,52
 db BANK(PidgeyPicFront)

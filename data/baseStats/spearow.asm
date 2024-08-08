@@ -22,7 +22,7 @@ db 0 ; growth rate
 	tmlearn 9,10
 	tmlearn 20
 	tmlearn 31,32
-	tmlearn 34,39
+	tmlearn 39
 	tmlearn 43,44
 	tmlearn 50,52
 db BANK(SpearowPicFront)
