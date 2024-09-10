@@ -18,7 +18,7 @@ db BODY_SLAM
 db SLUDGE_BOMB
 db 0 ; growth rate
 ; learnset
-	tmlearn 8
+	tmlearn 6,8
 	tmlearn 9,10,15
 	tmlearn 20
 	tmlearn 26,27,28,31,32
