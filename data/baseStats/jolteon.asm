@@ -24,5 +24,5 @@ db 0 ; growth rate
 	tmlearn 25,28,30,31,32
 	tmlearn 33,39,40
 	tmlearn 44,45
-	tmlearn 50,55
+	tmlearn 50,54,55
 db BANK(JolteonPicFront)

@@ -25,6 +25,6 @@ db 3 ; growth rate
 	tmlearn 31,32
 	tmlearn 33
 	tmlearn 44
-	tmlearn 50,51
+	tmlearn 50,51,54
 db BANK(BulbasaurPicFront)
 MonBaseStatsEnd:
