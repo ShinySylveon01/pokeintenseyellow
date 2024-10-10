@@ -22,7 +22,7 @@ PewterCityObject:
 	db 5 ; objects
 	object SPRITE_LASS, 8, 15, STAY, NONE, 1 ; person
 	object SPRITE_BLACK_HAIR_BOY_1, 15, 27, STAY, NONE, 2 ; person
-	object SPRITE_BLACK_HAIR_BOY_2, 21, 17, STAY, NONE, 3 ; person
+	object SPRITE_BLACK_HAIR_BOY_2, 27, 17, STAY, NONE, 3 ; person
 	object SPRITE_BLACK_HAIR_BOY_2, 26, 25, WALK, 2, 4 ; person
 	object SPRITE_BUG_CATCHER, 35, 16, STAY, DOWN, 5 ; person
 
