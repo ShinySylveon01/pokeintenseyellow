@@ -1201,11 +1201,14 @@ MagicalLeafAnim:
 	db $FF
 	
 SacredFireAnim:
-	db SE_SHOOT_MANY_BALLS_UPWARD, $FF
+	db $46,$4E,$3C
+	db $FD,$49,$45
+	db $51,$3D
+	db $46,$51,$1A
+	db $D8,$40,$46
+	db $81,$0D
 	db $46,$FF,$20
-	db $46,$52,$0C
-	db $46,$FF,$0D
-	db $46,$FF,$0E
+	db $FC,$FF
 	db $FF
 	
 FreezeBreathAnim:
