@@ -674,7 +674,6 @@ StringShotAnim:
 	db $FF
 
 DragonRageAnim:
-DragonBreathAnim:
 	db $46,$51,$1F
 	db $46,$FF,$0C
 	db $46,$FF,$0D
@@ -1165,6 +1164,11 @@ SubstituteAnim:
 SludgeBombAnim:
 	db $44,$7B,$41
 	db $46,$7B,$14
+	db $FF
+	
+DragonBreathAnim:
+	db $46,$51,$1F
+	db $46,$FF,$1A
 	db $FF
 	
 ShadowBallAnim:
