@@ -189,3 +189,4 @@ MoveNames::
 	db "FREEZEBREATH@"
 	db "ZAP CANNON@"
 	db "FRENZY PLANT@"
+	db "FAINT ATTACK@"

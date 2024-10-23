@@ -1659,8 +1659,8 @@ PersianEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, SLASH
-	db 17, SLASH
+	db 12, FAINT_ATTACK
+	db 17, FAINT_ATTACK
 	db 24, HYPNOSIS
 	db 37, THUNDERBOLT
 	db 51, BUBBLEBEAM

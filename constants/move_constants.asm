@@ -193,6 +193,7 @@ NUM_ATTACKS EQU const_value + -1
 	const FREEZEBREATH ; bc
 	const ZAP_CANNON   ; bd
 	const FRENZY_PLANT ; be
+	const FAINT_ATTACK ; bf
 
 	; Moves do double duty as animation identifiers.
 

@@ -12,7 +12,7 @@ INCBIN "pic/ymon/persian.pic",0,1 ; 77, sprite dimensions
 dw PersianPicFront
 dw PersianPicBack
 ; attacks known at lvl 0
-db SLASH
+db FAINT_ATTACK
 db HYPNOSIS
 db THUNDERBOLT
 db BUBBLEBEAM

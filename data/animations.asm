@@ -189,6 +189,7 @@ AttackAnimationPointers:
 	dw FreezeBreathAnim
 	dw ZapCannonAnim
 	dw FrenzyPlantAnim
+	dw FaintAttackAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1232,6 +1233,13 @@ FrenzyPlantAnim:
 	db $55,$4D,$1C
 	db $44,$78,$42
 	db $FC,$FF
+	db $FF
+
+FaintAttackAnim:
+	db $EC,$20
+	db $E5,$20,$F9
+	db $20,$F1,$20
+	db $FC,$20
 	db $FF
 
 BallTossAnim:
