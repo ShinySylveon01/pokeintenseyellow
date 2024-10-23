@@ -414,14 +414,6 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, FIRE_BLAST
-	db 33, FIRE_BLAST
-	db 36, EXTREMESPEED
-	db 38, EXTREMESPEED
-	db 40, DIG
-	db 42, DIG
-	db 44, DOUBLE_TEAM
-	db 47, DOUBLE_TEAM
 	db 0
 
 MewEvosMoves:

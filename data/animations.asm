@@ -676,6 +676,7 @@ StringShotAnim:
 	db $FF
 
 DragonRageAnim:
+DragonBreathAnim:
 	db $46,$51,$1F
 	db $46,$FF,$0C
 	db $46,$FF,$0D
@@ -1168,18 +1169,14 @@ SludgeBombAnim:
 	db $46,$7B,$14
 	db $FF
 	
-DragonBreathAnim:
-	db $46,$51,$1F
-	db $46,$FF,$1A
-	db $FF
-	
 ShadowBallAnim:
-	db SE_DARK_SCREEN_PALETTE, $48
-	db $06,$FF,$43
-	db SE_DARK_SCREEN_FLASH, $FF
-	db $06,$9C,$2E
-	db SE_RESET_SCREEN_PALETTE, $FF
-	db SE_FLASH_SCREEN_LONG, $54, $FF
+	db $FD,$48
+	db $09,$FF,$43
+	db $FE,$FF
+	db $08,$9C,$2E
+	db $FE,$FF,$FE
+	db $FF,$FC,$FF
+	db $F8,$54,$FF
 	db $FF
 	
 SeedBombAnim:
@@ -1210,7 +1207,7 @@ SacredFireAnim:
 	db $D8,$40,$46
 	db $81,$0D
 	db $46,$FF,$20
-	db $FC,$FF
+	db $FC,$40
 	db $FF
 	
 FreezeBreathAnim:
