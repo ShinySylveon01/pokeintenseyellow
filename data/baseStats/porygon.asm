@@ -12,7 +12,7 @@ INCBIN "pic/ymon/porygon.pic",0,1 ; 66, sprite dimensions
 dw PorygonPicFront
 dw PorygonPicBack
 ; attacks known at lvl 0
-db THUNDERBOLT
+db ZAP_CANNON
 db PSYCHIC_M
 db BLIZZARD
 db RECOVER

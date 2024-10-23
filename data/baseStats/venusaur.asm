@@ -13,7 +13,7 @@ dw VenusaurPicFront
 dw VenusaurPicBack
 ; attacks known at lvl 0
 db SLEEP_POWDER
-db SEED_BOMB
+db FRENZY_PLANT
 db BODY_SLAM
 db SLUDGE_BOMB
 db 3 ; growth rate

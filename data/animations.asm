@@ -187,6 +187,8 @@ AttackAnimationPointers:
 	dw MagicalLeafAnim
 	dw SacredFireAnim
 	dw FreezeBreathAnim
+	dw ZapCannonAnim
+	dw FrenzyPlantAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1217,6 +1219,22 @@ FreezeBreathAnim:
 	db $46,$1B,$28
 	db $10,$10,$2F
 	db SE_RESET_SCREEN_PALETTE, $FF
+	db $FF
+	
+ZapCannonAnim:
+	db $F0,$4A
+	db $43,$80,$3F
+	db $41,$54,$29
+	db $FC,$FF
+	db $FF
+
+FrenzyPlantAnim:
+	db $FD,$48
+	db $E7,$4A
+	db $46,$3C,$2B
+	db $55,$4D,$1C
+	db $44,$78,$42
+	db $FC,$FF
 	db $FF
 
 BallTossAnim:

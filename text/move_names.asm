@@ -187,3 +187,5 @@ MoveNames::
 	db "MAGICAL LEAF@"
 	db "SACRED FIRE@"
 	db "FREEZEBREATH@"
+	db "ZAP CANNON@"
+	db "FRENZY PLANT@"

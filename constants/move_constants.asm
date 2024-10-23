@@ -191,6 +191,8 @@ NUM_ATTACKS EQU const_value + -1
 	const MAGICAL_LEAF ; ba
 	const SACRED_FIRE  ; bb
 	const FREEZEBREATH ; bc
+	const ZAP_CANNON   ; bd
+	const FRENZY_PLANT ; be
 
 	; Moves do double duty as animation identifiers.
 

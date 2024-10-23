@@ -1772,8 +1772,8 @@ VenusaurEvosMoves:
 	db 13, SLEEP_POWDER
 	db 22, BODY_SLAM
 	db 30, BODY_SLAM
-	db 43, SEED_BOMB
-	db 55, SEED_BOMB
+	db 43, FRENZY_PLANT
+	db 55, FRENZY_PLANT
 	db 65, SLUDGE_BOMB
 	db 0
 
@@ -1935,7 +1935,7 @@ PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, THUNDERBOLT
+	db 23, ZAP_CANNON
 	db 28, PSYCHIC_M
 	db 35, BLIZZARD
 	db 42, RECOVER
@@ -2138,7 +2138,4 @@ VictreebelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, STUN_SPORE
-	db 18, SLEEP_POWDER
 	db 0
