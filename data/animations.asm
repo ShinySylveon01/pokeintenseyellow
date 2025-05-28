@@ -1194,9 +1194,8 @@ DragonPulseAnim:
 	
 MagicalLeafAnim:
 	db SE_LIGHT_SCREEN_PALETTE, $FF
-	db SE_LEAVES_FALLING, $4A
-	db $41,$80,$44
-	db $01,$0C,$16
+	db $43,$4A,$44
+	db $43,$4A,$44
 	db SE_RESET_SCREEN_PALETTE, $FF
 	db $FF
 	
@@ -1212,11 +1211,11 @@ SacredFireAnim:
 	db $FF
 	
 FreezeBreathAnim:
-	db SE_LIGHT_SCREEN_PALETTE, $FF
-	db SE_WATER_DROPLETS_EVERYWHERE, $10
+	db $F0,$FF
+	db $FA,$10
 	db $46,$1B,$28
-	db $10,$10,$2F
-	db SE_RESET_SCREEN_PALETTE, $FF
+	db $0C,$10,$2F
+	db $FC,$FF
 	db $FF
 	
 ZapCannonAnim:
