@@ -231,6 +231,8 @@ SabrinaSprite:        INCBIN "gfx/sprites/sabrina.2bpp"
 BlaineSprite:         INCBIN "gfx/sprites/blaine.2bpp"
 BillSprite:           INCBIN "gfx/sprites/bill.2bpp"
 SwimmerFSprite:       INCBIN "gfx/sprites/swimmer_f.2bpp"
+PokedexSprite:        INCBIN "gfx/sprites/pokedex.2bpp"
+
 
 SECTION "Gender Data", ROMX
 
