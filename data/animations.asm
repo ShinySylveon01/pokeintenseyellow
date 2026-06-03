@@ -190,6 +190,7 @@ AttackAnimationPointers:
 	dw ZapCannonAnim
 	dw FrenzyPlantAnim
 	dw FaintAttackAnim
+	dw HyperVoiceAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1080,6 +1081,7 @@ FlashAnim:
 	db $FF
 
 PsywaveAnim:
+HyperVoiceAnim:
 	db $06,$2F,$31
 	db SE_WAVY_SCREEN, $5C
 	db $FF

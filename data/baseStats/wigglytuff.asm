@@ -15,7 +15,7 @@ dw WigglytuffPicBack
 db SING
 db THUNDERBOLT
 db BLIZZARD
-db PSYCHIC_M
+db HYPER_VOICE
 db 4 ; growth rate
 ; learnset
 	tmlearn 1,5,8
