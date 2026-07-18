@@ -195,6 +195,7 @@ NUM_ATTACKS EQU const_value + -1
 	const FRENZY_PLANT ; be
 	const FAINT_ATTACK ; bf
 	const HYPER_VOICE  ; c0
+	const HYDRO_CANNON ; c1
 
 	; Moves do double duty as animation identifiers.
 

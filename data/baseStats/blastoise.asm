@@ -14,7 +14,7 @@ dw BlastoisePicBack
 ; attacks known at lvl 0
 db BODY_SLAM
 db EARTHQUAKE
-db HYDRO_PUMP
+db HYDRO_CANNON
 db BLIZZARD
 db 3 ; growth rate
 ; learnset

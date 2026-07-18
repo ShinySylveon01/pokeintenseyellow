@@ -191,6 +191,7 @@ AttackAnimationPointers:
 	dw FrenzyPlantAnim
 	dw FaintAttackAnim
 	dw HyperVoiceAnim
+	dw HydroCannonAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1241,6 +1242,16 @@ FaintAttackAnim:
 	db $E5,$20,$F9
 	db $20,$F1,$20
 	db $FC,$20
+	db $FF
+	
+HydroCannonAnim:
+	db $FD,$48
+	db $46,$FF,$43
+	db $FE,$FF
+	db $08,$38,$2E
+	db $06,$3C,$1A
+	db $08,$FF,$01
+	db $FC,$FF
 	db $FF
 
 BallTossAnim:

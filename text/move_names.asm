@@ -191,3 +191,4 @@ MoveNames::
 	db "FRENZY PLANT@"
 	db "FAINT ATTACK@"
 	db "HYPER VOICE@"
+	db "HYDRO CANNON@"

@@ -509,8 +509,8 @@ BlastoiseEvosMoves:
 	db 15, BODY_SLAM
 	db 24, EARTHQUAKE
 	db 31, EARTHQUAKE
-	db 42, HYDRO_PUMP
-	db 52, HYDRO_PUMP
+	db 42, HYDRO_CANNON
+	db 52, HYDRO_CANNON
 	db 0
 
 PinsirEvosMoves:
@@ -2119,11 +2119,8 @@ WeepinbellEvosMoves:
 	db 0
 ; Learnset
 	db 13, SLEEP_POWDER
-	db 15, SLEEP_POWDER
 	db 18, STUN_SPORE
-	db 23, STUN_SPORE
 	db 29, RAZOR_LEAF
-	db 38, RAZOR_LEAF
 	db 49, WRAP
 	db 0
 
