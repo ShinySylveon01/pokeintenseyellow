@@ -192,3 +192,4 @@ MoveNames::
 	db "FAINT ATTACK@"
 	db "HYPER VOICE@"
 	db "HYDRO CANNON@"
+	db "BLAST BURN@"

@@ -12,7 +12,7 @@ INCBIN "pic/ymon/charizard.pic",0,1 ; 77, sprite dimensions
 dw CharizardPicFront
 dw CharizardPicBack
 ; attacks known at lvl 0
-db FLAMETHROWER
+db BLAST_BURN
 db SLASH
 db DRAGON_PULSE
 db EARTHQUAKE

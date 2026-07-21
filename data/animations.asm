@@ -192,6 +192,7 @@ AttackAnimationPointers:
 	dw FaintAttackAnim
 	dw HyperVoiceAnim
 	dw HydroCannonAnim
+	dw BlastBurnAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
 	dw PlayerFlashAnim
@@ -1203,6 +1204,7 @@ MagicalLeafAnim:
 	db $FF
 	
 SacredFireAnim:
+BlastBurnAnim:
 	db $46,$4E,$3C
 	db $FD,$49,$45
 	db $51,$3D

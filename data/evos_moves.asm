@@ -2020,19 +2020,16 @@ WartortleEvosMoves:
 	db 0
 ; Learnset
 	db 8, OCTAZOOKA
-	db 15, OCTAZOOKA
 	db 24, ICE_BEAM
-	db 31, ICE_BEAM
 	db 39, BODY_SLAM
-	db 47, BODY_SLAM
 	db 0
 
 CharizardEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, FLAMETHROWER
-	db 15, FLAMETHROWER
+	db 9, BLAST_BURN
+	db 15, BLAST_BURN
 	db 24, SLASH
 	db 36, SLASH
 	db 46, DRAGON_PULSE
