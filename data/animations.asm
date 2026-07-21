@@ -1250,7 +1250,7 @@ HydroCannonAnim:
 	db $FE,$FF
 	db $08,$38,$2E
 	db $06,$3C,$1A
-	db $08,$FF,$01
+	db $08,$FF,$02
 	db $FC,$FF
 	db $FF
 
